@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="ecommerce.EcommerceRunner" time="3.478" tests="2" errors="0" skipped="0" failures="0" flakes="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/aldo.salazar/IdeaProjects/KarateDummy/target/test-classes:/Users/aldo.salazar/IdeaProjects/KarateDummy/target/classes:/Users/aldo.salazar/.m2/repository/io/karatelabs/karate-junit5/1.5.1/karate-junit5-1.5.1.jar:/Users/aldo.salazar/.m2/repository/io/karatelabs/karate-core/1.5.1/karate-core-1.5.1.jar:/Users/aldo.salazar/.m2/repository/org/graalvm/js/js-scriptengine/24.0.0/js-scriptengine-24.0.0.jar:/Users/aldo.salazar/.m2/repository/org/graalvm/polyglot/polyglot/24.0.0/polyglot-24.0.0.jar:/Users/aldo.salazar/.m2/repository/org/graalvm/sdk/collections/24.0.0/collections-24.0.0.jar:/Users/aldo.salazar/.m2/repository/org/graalvm/sdk/nativeimage/24.0.0/nativeimage-24.0.0.jar:/Users/aldo.salazar/.m2/repository/org/graalvm/sdk/word/24.0.0/word-24.0.0.jar:/Users/aldo.salazar/.m2/repository/org/graalvm/js/js-language/24.0.0/js-language-24.0.0.jar:/Users/aldo.salazar/.m2/repository/org/graalvm/regex/regex/24.0.0/regex-24.0.0.jar:/Users/aldo.salazar/.m2/repository/org/graalvm/truffle/truffle-api/24.0.0/truffle-api-24.0.0.jar:/Users/aldo.salazar/.m2/repository/org/graalvm/shadowed/icu4j/24.0.0/icu4j-24.0.0.jar:/Users/aldo.salazar/.m2/repository/org/thymeleaf/thymeleaf/3.1.2.RELEASE/thymeleaf-3.1.2.RELEASE.jar:/Users/aldo.salazar/.m2/repository/ognl/ognl/3.3.4/ognl-3.3.4.jar:/Users/aldo.salazar/.m2/repository/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA.jar:/Users/aldo.salazar/.m2/repository/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE.jar:/Users/aldo.salazar/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/Users/aldo.salazar/.m2/repository/com/linecorp/armeria/armeria/1.31.3/armeria-1.31.3.jar:/Users/aldo.salazar/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.1/jackson-core-2.18.1.jar:/Users/aldo.salazar/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.1/jackson-annotations-2.18.1.jar:/Users/aldo.salazar/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.1/jackson-databind-2.18.1.jar:/Users/aldo.salazar/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.18.1/jackson-datatype-jdk8-2.18.1.jar:/Users/aldo.salazar/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.1/jackson-datatype-jsr310-2.18.1.jar:/Users/aldo.salazar/.m2/repository/io/micrometer/micrometer-core/1.13.6/micrometer-core-1.13.6.jar:/Users/aldo.salazar/.m2/repository/io/micrometer/micrometer-commons/1.13.6/micrometer-commons-1.13.6.jar:/Users/aldo.salazar/.m2/repository/io/micrometer/micrometer-observation/1.13.6/micrometer-observation-1.13.6.jar:/Users/aldo.salazar/.m2/repository/org/hdrhistogram/HdrHistogram/2.2.2/HdrHistogram-2.2.2.jar:/Users/aldo.salazar/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport/4.1.115.Final/netty-transport-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-common/4.1.115.Final/netty-common-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-buffer/4.1.115.Final/netty-buffer-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-resolver/4.1.115.Final/netty-resolver-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-codec-haproxy/4.1.115.Final/netty-codec-haproxy-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-codec/4.1.115.Final/netty-codec-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-codec-http2/4.1.115.Final/netty-codec-http2-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-handler/4.1.115.Final/netty-handler-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-codec-http/4.1.115.Final/netty-codec-http-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-resolver-dns/4.1.115.Final/netty-resolver-dns-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-codec-dns/4.1.115.Final/netty-codec-dns-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.115.Final/netty-transport-native-unix-common-4.1.115.Final-linux-x86_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.115.Final/netty-transport-native-unix-common-4.1.115.Final-linux-aarch_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.115.Final/netty-transport-native-unix-common-4.1.115.Final-osx-x86_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.115.Final/netty-transport-native-unix-common-4.1.115.Final-osx-aarch_64.jar:/Users/aldo.salazar/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/aldo.salazar/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-handler-proxy/4.1.115.Final/netty-handler-proxy-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-codec-socks/4.1.115.Final/netty-codec-socks-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-native-epoll/4.1.115.Final/netty-transport-native-epoll-4.1.115.Final-linux-x86_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.115.Final/netty-transport-native-unix-common-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.115.Final/netty-transport-classes-epoll-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-native-epoll/4.1.115.Final/netty-transport-native-epoll-4.1.115.Final-linux-aarch_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.115.Final/netty-transport-native-kqueue-4.1.115.Final-osx-x86_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.115.Final/netty-transport-classes-kqueue-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.115.Final/netty-resolver-dns-native-macos-4.1.115.Final-osx-x86_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.115.Final/netty-resolver-dns-classes-macos-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.115.Final/netty-transport-native-kqueue-4.1.115.Final-osx-aarch_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.115.Final/netty-resolver-dns-native-macos-4.1.115.Final-osx-aarch_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.69.Final/netty-tcnative-boringssl-static-2.0.69.Final-linux-x86_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-tcnative-classes/2.0.69.Final/netty-tcnative-classes-2.0.69.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.69.Final/netty-tcnative-boringssl-static-2.0.69.Final-linux-aarch_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.69.Final/netty-tcnative-boringssl-static-2.0.69.Final-osx-x86_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.69.Final/netty-tcnative-boringssl-static-2.0.69.Final-osx-aarch_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.69.Final/netty-tcnative-boringssl-static-2.0.69.Final-windows-x86_64.jar:/Users/aldo.salazar/.m2/repository/com/aayushatharva/brotli4j/brotli4j/1.17.0/brotli4j-1.17.0.jar:/Users/aldo.salazar/.m2/repository/com/aayushatharva/brotli4j/service/1.17.0/service-1.17.0.jar:/Users/aldo.salazar/.m2/repository/com/aayushatharva/brotli4j/native-osx-aarch64/1.17.0/native-osx-aarch64-1.17.0.jar:/Users/aldo.salazar/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar:/Users/aldo.salazar/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/Users/aldo.salazar/.m2/repository/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar:/Users/aldo.salazar/.m2/repository/ch/qos/logback/logback-classic/1.5.4/logback-classic-1.5.4.jar:/Users/aldo.salazar/.m2/repository/ch/qos/logback/logback-core/1.5.4/logback-core-1.5.4.jar:/Users/aldo.salazar/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.12/jcl-over-slf4j-2.0.12.jar:/Users/aldo.salazar/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/aldo.salazar/.m2/repository/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar:/Users/aldo.salazar/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/Users/aldo.salazar/.m2/repository/net/minidev/json-smart/2.5.1/json-smart-2.5.1.jar:/Users/aldo.salazar/.m2/repository/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.jar:/Users/aldo.salazar/.m2/repository/org/ow2/asm/asm/9.6/asm-9.6.jar:/Users/aldo.salazar/.m2/repository/org/yaml/snakeyaml/2.3/snakeyaml-2.3.jar:/Users/aldo.salazar/.m2/repository/de/siegmar/fastcsv/3.4.0/fastcsv-3.4.0.jar:/Users/aldo.salazar/.m2/repository/info/picocli/picocli/4.7.6/picocli-4.7.6.jar:/Users/aldo.salazar/.m2/repository/io/github/classgraph/classgraph/4.8.179/classgraph-4.8.179.jar:/Users/aldo.salazar/.m2/repository/io/github/t12y/resemble/1.1.0/resemble-1.1.0.jar:/Users/aldo.salazar/.m2/repository/io/github/t12y/ssim/1.0.0/ssim-1.0.0.jar:/Users/aldo.salazar/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/aldo.salazar/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/aldo.salazar/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/aldo.salazar/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/aldo.salazar/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/aldo.salazar/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Lima"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PE"/>
+    <property name="sun.boot.library.path" value="/Users/aldo.salazar/java/jdk-25.0.5+8/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/aldo.salazar/IdeaProjects/KarateDummy/target/surefire/surefirebooter-20261118104730484_3.jar /Users/aldo.salazar/IdeaProjects/KarateDummy/target/surefire 2026-11-18T10-47-30_425-jvmRun1 surefire-20261118104730484_1tmp surefire_0-20261118104730484_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="ecommerce.EcommerceRunner"/>
+    <property name="surefire.test.class.path" value="/Users/aldo.salazar/IdeaProjects/KarateDummy/target/test-classes:/Users/aldo.salazar/IdeaProjects/KarateDummy/target/classes:/Users/aldo.salazar/.m2/repository/io/karatelabs/karate-junit5/1.5.1/karate-junit5-1.5.1.jar:/Users/aldo.salazar/.m2/repository/io/karatelabs/karate-core/1.5.1/karate-core-1.5.1.jar:/Users/aldo.salazar/.m2/repository/org/graalvm/js/js-scriptengine/24.0.0/js-scriptengine-24.0.0.jar:/Users/aldo.salazar/.m2/repository/org/graalvm/polyglot/polyglot/24.0.0/polyglot-24.0.0.jar:/Users/aldo.salazar/.m2/repository/org/graalvm/sdk/collections/24.0.0/collections-24.0.0.jar:/Users/aldo.salazar/.m2/repository/org/graalvm/sdk/nativeimage/24.0.0/nativeimage-24.0.0.jar:/Users/aldo.salazar/.m2/repository/org/graalvm/sdk/word/24.0.0/word-24.0.0.jar:/Users/aldo.salazar/.m2/repository/org/graalvm/js/js-language/24.0.0/js-language-24.0.0.jar:/Users/aldo.salazar/.m2/repository/org/graalvm/regex/regex/24.0.0/regex-24.0.0.jar:/Users/aldo.salazar/.m2/repository/org/graalvm/truffle/truffle-api/24.0.0/truffle-api-24.0.0.jar:/Users/aldo.salazar/.m2/repository/org/graalvm/shadowed/icu4j/24.0.0/icu4j-24.0.0.jar:/Users/aldo.salazar/.m2/repository/org/thymeleaf/thymeleaf/3.1.2.RELEASE/thymeleaf-3.1.2.RELEASE.jar:/Users/aldo.salazar/.m2/repository/ognl/ognl/3.3.4/ognl-3.3.4.jar:/Users/aldo.salazar/.m2/repository/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA.jar:/Users/aldo.salazar/.m2/repository/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE.jar:/Users/aldo.salazar/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/Users/aldo.salazar/.m2/repository/com/linecorp/armeria/armeria/1.31.3/armeria-1.31.3.jar:/Users/aldo.salazar/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.1/jackson-core-2.18.1.jar:/Users/aldo.salazar/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.1/jackson-annotations-2.18.1.jar:/Users/aldo.salazar/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.1/jackson-databind-2.18.1.jar:/Users/aldo.salazar/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.18.1/jackson-datatype-jdk8-2.18.1.jar:/Users/aldo.salazar/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.1/jackson-datatype-jsr310-2.18.1.jar:/Users/aldo.salazar/.m2/repository/io/micrometer/micrometer-core/1.13.6/micrometer-core-1.13.6.jar:/Users/aldo.salazar/.m2/repository/io/micrometer/micrometer-commons/1.13.6/micrometer-commons-1.13.6.jar:/Users/aldo.salazar/.m2/repository/io/micrometer/micrometer-observation/1.13.6/micrometer-observation-1.13.6.jar:/Users/aldo.salazar/.m2/repository/org/hdrhistogram/HdrHistogram/2.2.2/HdrHistogram-2.2.2.jar:/Users/aldo.salazar/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport/4.1.115.Final/netty-transport-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-common/4.1.115.Final/netty-common-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-buffer/4.1.115.Final/netty-buffer-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-resolver/4.1.115.Final/netty-resolver-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-codec-haproxy/4.1.115.Final/netty-codec-haproxy-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-codec/4.1.115.Final/netty-codec-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-codec-http2/4.1.115.Final/netty-codec-http2-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-handler/4.1.115.Final/netty-handler-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-codec-http/4.1.115.Final/netty-codec-http-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-resolver-dns/4.1.115.Final/netty-resolver-dns-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-codec-dns/4.1.115.Final/netty-codec-dns-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.115.Final/netty-transport-native-unix-common-4.1.115.Final-linux-x86_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.115.Final/netty-transport-native-unix-common-4.1.115.Final-linux-aarch_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.115.Final/netty-transport-native-unix-common-4.1.115.Final-osx-x86_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.115.Final/netty-transport-native-unix-common-4.1.115.Final-osx-aarch_64.jar:/Users/aldo.salazar/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/aldo.salazar/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-handler-proxy/4.1.115.Final/netty-handler-proxy-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-codec-socks/4.1.115.Final/netty-codec-socks-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-native-epoll/4.1.115.Final/netty-transport-native-epoll-4.1.115.Final-linux-x86_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.115.Final/netty-transport-native-unix-common-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.115.Final/netty-transport-classes-epoll-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-native-epoll/4.1.115.Final/netty-transport-native-epoll-4.1.115.Final-linux-aarch_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.115.Final/netty-transport-native-kqueue-4.1.115.Final-osx-x86_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.115.Final/netty-transport-classes-kqueue-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.115.Final/netty-resolver-dns-native-macos-4.1.115.Final-osx-x86_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.115.Final/netty-resolver-dns-classes-macos-4.1.115.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.115.Final/netty-transport-native-kqueue-4.1.115.Final-osx-aarch_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.115.Final/netty-resolver-dns-native-macos-4.1.115.Final-osx-aarch_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.69.Final/netty-tcnative-boringssl-static-2.0.69.Final-linux-x86_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-tcnative-classes/2.0.69.Final/netty-tcnative-classes-2.0.69.Final.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.69.Final/netty-tcnative-boringssl-static-2.0.69.Final-linux-aarch_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.69.Final/netty-tcnative-boringssl-static-2.0.69.Final-osx-x86_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.69.Final/netty-tcnative-boringssl-static-2.0.69.Final-osx-aarch_64.jar:/Users/aldo.salazar/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.69.Final/netty-tcnative-boringssl-static-2.0.69.Final-windows-x86_64.jar:/Users/aldo.salazar/.m2/repository/com/aayushatharva/brotli4j/brotli4j/1.17.0/brotli4j-1.17.0.jar:/Users/aldo.salazar/.m2/repository/com/aayushatharva/brotli4j/service/1.17.0/service-1.17.0.jar:/Users/aldo.salazar/.m2/repository/com/aayushatharva/brotli4j/native-osx-aarch64/1.17.0/native-osx-aarch64-1.17.0.jar:/Users/aldo.salazar/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar:/Users/aldo.salazar/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/Users/aldo.salazar/.m2/repository/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar:/Users/aldo.salazar/.m2/repository/ch/qos/logback/logback-classic/1.5.4/logback-classic-1.5.4.jar:/Users/aldo.salazar/.m2/repository/ch/qos/logback/logback-core/1.5.4/logback-core-1.5.4.jar:/Users/aldo.salazar/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.12/jcl-over-slf4j-2.0.12.jar:/Users/aldo.salazar/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/aldo.salazar/.m2/repository/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar:/Users/aldo.salazar/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/Users/aldo.salazar/.m2/repository/net/minidev/json-smart/2.5.1/json-smart-2.5.1.jar:/Users/aldo.salazar/.m2/repository/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.jar:/Users/aldo.salazar/.m2/repository/org/ow2/asm/asm/9.6/asm-9.6.jar:/Users/aldo.salazar/.m2/repository/org/yaml/snakeyaml/2.3/snakeyaml-2.3.jar:/Users/aldo.salazar/.m2/repository/de/siegmar/fastcsv/3.4.0/fastcsv-3.4.0.jar:/Users/aldo.salazar/.m2/repository/info/picocli/picocli/4.7.6/picocli-4.7.6.jar:/Users/aldo.salazar/.m2/repository/io/github/classgraph/classgraph/4.8.179/classgraph-4.8.179.jar:/Users/aldo.salazar/.m2/repository/io/github/t12y/resemble/1.1.0/resemble-1.1.0.jar:/Users/aldo.salazar/.m2/repository/io/github/t12y/ssim/1.0.0/ssim-1.0.0.jar:/Users/aldo.salazar/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/aldo.salazar/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/aldo.salazar/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/aldo.salazar/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/aldo.salazar/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/aldo.salazar/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/aldo.salazar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-10-20"/>
+    <property name="java.home" value="/Users/aldo.salazar/java/jdk-25.0.5+8/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/aldo.salazar/IdeaProjects/KarateDummy"/>
+    <property name="java.vm.compressedOopsMode" value="Non-zero disjoint base"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/aldo.salazar/IdeaProjects/KarateDummy/target/surefire/surefirebooter-20261118104730484_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.5+8-LTS"/>
+    <property name="user.name" value="aldo.salazar"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="27.0.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-25.0.5+8"/>
+    <property name="localRepository" value="/Users/aldo.salazar/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/n0/lvjgddln7r1447jpkfgvc9nw0000gp/T/"/>
+    <property name="java.version" value="25.0.5"/>
+    <property name="user.dir" value="/Users/aldo.salazar/IdeaProjects/KarateDummy"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/aldo.salazar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="25.0.5+8-LTS"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="[1:7] Validacion rapida de autenticacion (Smoke Test)" classname="ecommerce.EcommerceRunner" time="1.059">
+    <system-out><![CDATA[10:47:31.142 [main] DEBUG com.intuit.karate.Suite -- [config] classpath:karate-config.js
+10:47:31.573 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath -- Evaluating path: $
+10:47:31.589 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory -- Using SLF4J as the default logging framework
+10:47:31.590 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- -Dio.netty.noUnsafe: false
+10:47:31.590 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- Java version: 25
+10:47:31.591 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- sun.misc.Unsafe.theUnsafe: available
+10:47:31.591 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- sun.misc.Unsafe base methods: all available
+10:47:31.592 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- sun.misc.Unsafe.storeFence: available
+10:47:31.592 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- java.nio.Buffer.address: available
+10:47:31.592 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+10:47:31.593 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- java.nio.Bits.unaligned: available, true
+10:47:31.593 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @480bdb19
+10:47:31.594 [main] DEBUG io.netty.util.internal.PlatformDependent0 -- java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+10:47:31.594 [main] DEBUG io.netty.util.internal.PlatformDependent -- sun.misc.Unsafe: available
+10:47:31.595 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.tmpdir: /var/folders/n0/lvjgddln7r1447jpkfgvc9nw0000gp/T (java.io.tmpdir)
+10:47:31.595 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.bitMode: 64 (sun.arch.data.model)
+10:47:31.595 [main] DEBUG io.netty.util.internal.PlatformDependent -- Platform: MacOS
+10:47:31.596 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.maxDirectMemory: -1 bytes
+10:47:31.596 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.uninitializedArrayAllocationThreshold: -1
+10:47:31.596 [main] DEBUG io.netty.util.internal.CleanerJava9 -- java.nio.ByteBuffer.cleaner(): available
+10:47:31.597 [main] DEBUG io.netty.util.internal.PlatformDependent -- -Dio.netty.noPreferDirect: false
+10:47:31.682 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: karate
+10:47:31.684 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+10:47:31.685 [main] DEBUG com.intuit.karate -- request:
+1 > POST https://dummyjson.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 64
+1 > Host: dummyjson.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"emilys","password":"emilyspass","expiresInMins":30}
+
+10:47:31.686 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection request: [route: {s}->https://dummyjson.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+10:47:31.688 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection leased: [id: 0][route: {s}->https://dummyjson.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+10:47:31.689 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Opening connection {s}->https://dummyjson.com:443
+10:47:31.698 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -- Connecting to dummyjson.com/172.67.205.42:443
+10:47:31.698 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Connecting socket to dummyjson.com/172.67.205.42:443 with timeout 5000
+10:47:31.794 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Enabled protocols: [TLSv1.3, TLSv1.2]
+10:47:31.794 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+10:47:31.795 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Starting handshake
+10:47:31.947 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Secure session established
+10:47:31.947 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  negotiated protocol: TLSv1.3
+10:47:31.948 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+10:47:31.948 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  peer principal: CN=dummyjson.com
+10:47:31.948 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  peer alternative names: [dummyjson.com, *.dummyjson.com]
+10:47:31.948 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  issuer principal: CN=WE1, O=Google Trust Services, C=US
+10:47:31.949 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -- Connection established 172.16.211.158:53695<->172.67.205.42:443
+10:47:31.949 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection -- http-outgoing-0: set socket timeout to 5000
+10:47:31.950 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Executing request POST /auth/login HTTP/1.1
+10:47:31.950 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Target auth state: UNCHALLENGED
+10:47:31.950 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Proxy auth state: UNCHALLENGED
+10:47:31.950 [main] DEBUG org.apache.http.headers -- http-outgoing-0 >> POST /auth/login HTTP/1.1
+10:47:31.950 [main] DEBUG org.apache.http.headers -- http-outgoing-0 >> Content-Type: application/json; charset=UTF-8
+10:47:31.951 [main] DEBUG org.apache.http.headers -- http-outgoing-0 >> Content-Length: 64
+10:47:31.951 [main] DEBUG org.apache.http.headers -- http-outgoing-0 >> Host: dummyjson.com
+10:47:31.951 [main] DEBUG org.apache.http.headers -- http-outgoing-0 >> Connection: Keep-Alive
+10:47:31.951 [main] DEBUG org.apache.http.headers -- http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.5)
+10:47:31.951 [main] DEBUG org.apache.http.headers -- http-outgoing-0 >> Accept-Encoding: gzip,deflate
+10:47:31.951 [main] DEBUG org.apache.http.wire -- http-outgoing-0 >> "POST /auth/login HTTP/1.1[\r][\n]"
+10:47:31.951 [main] DEBUG org.apache.http.wire -- http-outgoing-0 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+10:47:31.952 [main] DEBUG org.apache.http.wire -- http-outgoing-0 >> "Content-Length: 64[\r][\n]"
+10:47:31.952 [main] DEBUG org.apache.http.wire -- http-outgoing-0 >> "Host: dummyjson.com[\r][\n]"
+10:47:31.952 [main] DEBUG org.apache.http.wire -- http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+10:47:31.952 [main] DEBUG org.apache.http.wire -- http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.5)[\r][\n]"
+10:47:31.952 [main] DEBUG org.apache.http.wire -- http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10:47:31.952 [main] DEBUG org.apache.http.wire -- http-outgoing-0 >> "[\r][\n]"
+10:47:31.952 [main] DEBUG org.apache.http.wire -- http-outgoing-0 >> "{"username":"emilys","password":"emilyspass","expiresInMins":30}"
+10:47:32.170 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+10:47:32.170 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "Date: Wed, 18 Nov 2026 15:47:32 GMT[\r][\n]"
+10:47:32.171 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+10:47:32.171 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+10:47:32.171 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+10:47:32.172 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "access-control-allow-credentials: true[\r][\n]"
+10:47:32.173 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "etag: W/"3a2-zbaNn6O8eNw3EZFnZglVHbWZRNE"[\r][\n]"
+10:47:32.173 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "Set-Cookie: accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NTAxODY1Mn0._Xp767IkC2efn3oPI8Lfhn_1ZcCIuNdJ8cnRNGjWBrc; Max-Age=1800; Path=/; Expires=Wed, 18 Nov 2026 16:17:32 GMT; HttpOnly; Secure[\r][\n]"
+10:47:32.173 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "Set-Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NzYwODg1Mn0.ueiznZhA8xDflnQl5z7MiZS9bdRdsRv05ltAZMEK80E; Max-Age=1800; Path=/; Expires=Wed, 18 Nov 2026 16:17:32 GMT; HttpOnly; Secure[\r][\n]"
+10:47:32.173 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "strict-transport-security: max-age=15552000; includeSubDomains[\r][\n]"
+10:47:32.174 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "vary: Origin, Accept-Encoding[\r][\n]"
+10:47:32.174 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "x-content-type-options: nosniff[\r][\n]"
+10:47:32.174 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "x-dns-prefetch-control: off[\r][\n]"
+10:47:32.174 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "x-download-options: noopen[\r][\n]"
+10:47:32.175 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "x-frame-options: "
+10:47:32.176 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "SAMEORIGIN[\r][\n]"
+10:47:32.177 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "x-ratelimit-limit: 100[\r][\n]"
+10:47:32.177 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "x-ratelimit-remaining: 99[\r][\n]"
+10:47:32.177 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "x-ratelimit-reset: 1795016855[\r][\n]"
+10:47:32.177 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "x-xss-protection: 1; mode=block[\r][\n]"
+10:47:32.178 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "cf-cache-status: DYNAMIC[\r][\n]"
+10:47:32.178 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "Server-Timing: cfCacheStatus;desc="DYNAMIC"[\r][\n]"
+10:47:32.178 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "Server-Timing: cfEdge;dur=104,cfOrigin;dur=30[\r][\n]"
+10:47:32.178 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=C4JNEI5BJZywSIV7AizyHfPyEbFq4HrZRLozvG8lVIxED%2BKx37Sj7GJPOFtrTulInN7aFFeagJNNIkV0yQ3k5Mp3T1ajKY6uAKqXS70U75fQt6VYccv77xHAqe6%2F7Yuj"}]}[\r][\n]"
+10:47:32.178 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}[\r][\n]"
+10:47:32.179 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+10:47:32.179 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "Server: cloudflare[\r][\n]"
+10:47:32.179 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "CF-RAY: a5c81d3c7a0fb989-MIA[\r][\n]"
+10:47:32.179 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "[\r][\n]"
+10:47:32.179 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "1da[\r][\n]"
+10:47:32.180 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0xed]P][0x97][0x9a]0[0x14][0xfc]/<[0xef]QAYq[0x9f][0xea][0xaa][0xab][0xb1][0x2][0xbb][0x88][0x2]y[0xd9][0x3]!H [0x9][0x94][0x80][0x1f][0xf4][0xf4][0xbf]7[0xd1][0xb6][0xe7][0xf4][0xb5][0xcf]}[0xbb][0x99];3w2[0xdf][0xb5][0x18]!,[0x84]_[0x95][0x98]k/[0x1a][0xbe]m[0xf3]d[0x8d][0x88]K[0xb6][0xe0][0xd0][0x3][0xdd]!@[0x0][0xee][0x99]h[0x1][0x9e]AY[0x87][0xc7][0xc5]v6[0x90][0xa4][0x1a]J[0xc0][0xde]_H[0x1a]:[0x14]13O[0x82][0x83][0x12][0xd1]$[0xa0][0x2][0x87]6[0xd9]-[0xd4][0xfc]V'J[0xc8][0x8e]m[0x1c]\[0xcd][0x1d][0xab][0xcf][0xf1][0xda][0xec][0x13][0xc3][0x9c][0xe3][0x85]Y[0xa6][0x81][0xde][0xe2][0xa0][0x96][0xef]I[0x17][0x19][0xb3][0x16][0x90][0xb][0x81][0x8c][0xde][0xd0][0xd8]s[0xa3]@[0xa7][0xa0][0xa8][0x88][0x17][0xe8]u[0xb2])[0x95][0x9f][0x88]Bg[0xe4][0xb3][0xb7][0x16][0xee][0xef]a~yM[0xd4][0x8e][0xc3][0xc0],a[0x8]T[0x6][0x6][0x3]]~[0xe2][0xa0][0xf0]Zf[0xe0]w>[0xcb]G[0xe9][0xe6][0xb5]w[0x89]u[0x86][0x9b]c[0x9b][0x84][0xf4][0x1b]2f[0xdd][0x8e]9[0xe7]d?[0xab]#5[0x1b][0x8f][0x9c][0xe8]f][0xed][0xe2]t[0xd7]G[0xe1][0x7]q[0x8b][0xd5][0xd8][0xf5][0xf][0x17][0xdb][0x8f]&[0x8e]/[0xb]a[0xc7][0x89]*[0xc4][0xf6][0x91][0xe9][0xf8][0xf3][0xab][0xbb][0x8c]t[0x9b][0x8f][0x6][0x9f]a=}[0x9e][0x82]ra[0xe0][0x8c][0x8f][0xab]w`[0xed][0xb2][0x9c][0xea]P[0x92];'[0xdd]Z[0x88]{[0xce][0xba][0x8]^[0x1b][0xa4]=i[\r][0xce][0x1a],[0xf2][0xff][0xcd][0xff]k[0xf3]}tq[0x97][0xa7]{[0xf3][0x1d]&=[0x87][0xf9][0xdc][0xba].3[0xca]?[0xa8][0xd9]Om[0x2][0xf7][0xb3]$[0xf5]R[0xe1][0x9d]G&m[0xe7][0xd0]^}[0xb5]F+[0xd9]<I[0xb5][0x17][0xfd]I[0xeb][0x4]nx[0xcc][0xb0]*[0x9f][0x11]z[0x13]r[0x85]YL[0xe8]o`PT9[0x17][0x15][0xff]r[0x1d][0xa4][0x1d]c[0xb7]B[0xce][0x3]T1[0xc9][0xcb]H#Z[0xe7]!^)[0xae][0xc4]h[0xfc][0x7][0xda]>[0x84][0x12]<a[0x9e][0xe2]FB[0x99][0xb4][0xa6]X]g[0xf1]Iq[0xf2][0xb6][0xad][0xc5][0xcb]p[0xf8][0x97][0xf5][0x90][0xa0][0x8a][0xf][0x1f]q[0x86][0xba]ai?~[0x2][0x7][0x89]~[0xb7][0xa2][0x3][0x0][0x0][\r][\n]"
+10:47:32.180 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << HTTP/1.1 200 OK
+10:47:32.181 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << Date: Wed, 18 Nov 2026 15:47:32 GMT
+10:47:32.181 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << Content-Type: application/json; charset=utf-8
+10:47:32.181 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << Transfer-Encoding: chunked
+10:47:32.181 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << Connection: keep-alive
+10:47:32.181 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << access-control-allow-credentials: true
+10:47:32.182 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << etag: W/"3a2-zbaNn6O8eNw3EZFnZglVHbWZRNE"
+10:47:32.182 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << Set-Cookie: accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NTAxODY1Mn0._Xp767IkC2efn3oPI8Lfhn_1ZcCIuNdJ8cnRNGjWBrc; Max-Age=1800; Path=/; Expires=Wed, 18 Nov 2026 16:17:32 GMT; HttpOnly; Secure
+10:47:32.182 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << Set-Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NzYwODg1Mn0.ueiznZhA8xDflnQl5z7MiZS9bdRdsRv05ltAZMEK80E; Max-Age=1800; Path=/; Expires=Wed, 18 Nov 2026 16:17:32 GMT; HttpOnly; Secure
+10:47:32.182 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << strict-transport-security: max-age=15552000; includeSubDomains
+10:47:32.182 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << vary: Origin, Accept-Encoding
+10:47:32.182 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << x-content-type-options: nosniff
+10:47:32.183 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << x-dns-prefetch-control: off
+10:47:32.183 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << x-download-options: noopen
+10:47:32.183 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << x-frame-options: SAMEORIGIN
+10:47:32.183 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << x-ratelimit-limit: 100
+10:47:32.183 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << x-ratelimit-remaining: 99
+10:47:32.183 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << x-ratelimit-reset: 1795016855
+10:47:32.184 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << x-xss-protection: 1; mode=block
+10:47:32.184 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << cf-cache-status: DYNAMIC
+10:47:32.184 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << Server-Timing: cfCacheStatus;desc="DYNAMIC"
+10:47:32.184 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << Server-Timing: cfEdge;dur=104,cfOrigin;dur=30
+10:47:32.184 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=C4JNEI5BJZywSIV7AizyHfPyEbFq4HrZRLozvG8lVIxED%2BKx37Sj7GJPOFtrTulInN7aFFeagJNNIkV0yQ3k5Mp3T1ajKY6uAKqXS70U75fQt6VYccv77xHAqe6%2F7Yuj"}]}
+10:47:32.184 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+10:47:32.185 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << Content-Encoding: gzip
+10:47:32.185 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << Server: cloudflare
+10:47:32.185 [main] DEBUG org.apache.http.headers -- http-outgoing-0 << CF-RAY: a5c81d3c7a0fb989-MIA
+10:47:32.187 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Connection can be kept alive indefinitely
+10:47:32.197 [main] DEBUG org.apache.http.client.protocol.ResponseProcessCookies -- Cookie accepted [accessToken="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5...", version:0, domain:dummyjson.com, path:/, expiry:Wed Nov 18 11:17:32 GMT-05:00 2026]
+10:47:32.197 [main] DEBUG org.apache.http.client.protocol.ResponseProcessCookies -- Cookie accepted [refreshToken="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5...", version:0, domain:dummyjson.com, path:/, expiry:Wed Nov 18 11:17:32 GMT-05:00 2026]
+10:47:32.198 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "0[\r][\n]"
+10:47:32.199 [main] DEBUG org.apache.http.wire -- http-outgoing-0 << "[\r][\n]"
+10:47:32.199 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection [id: 0][route: {s}->https://dummyjson.com:443] can be kept alive indefinitely
+10:47:32.199 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection -- http-outgoing-0: set socket timeout to 0
+10:47:32.199 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection released: [id: 0][route: {s}->https://dummyjson.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+10:47:32.199 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection manager is shutting down
+10:47:32.200 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection -- http-outgoing-0: Close connection
+10:47:32.201 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection manager shut down
+10:47:32.204 [main] DEBUG com.intuit.karate -- response time in milliseconds: 514
+1 < 200
+1 < Date: Wed, 18 Nov 2026 15:47:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < access-control-allow-credentials: true
+1 < etag: W/"3a2-zbaNn6O8eNw3EZFnZglVHbWZRNE"
+1 < Set-Cookie: accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NTAxODY1Mn0._Xp767IkC2efn3oPI8Lfhn_1ZcCIuNdJ8cnRNGjWBrc; Max-Age=1800; Path=/; Expires=Wed, 18 Nov 2026 16:17:32 GMT; HttpOnly; Secure
+1 < Set-Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NzYwODg1Mn0.ueiznZhA8xDflnQl5z7MiZS9bdRdsRv05ltAZMEK80E; Max-Age=1800; Path=/; Expires=Wed, 18 Nov 2026 16:17:32 GMT; HttpOnly; Secure
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < vary: Origin, Accept-Encoding
+1 < x-content-type-options: nosniff
+1 < x-dns-prefetch-control: off
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-ratelimit-limit: 100
+1 < x-ratelimit-remaining: 99
+1 < x-ratelimit-reset: 1795016855
+1 < x-xss-protection: 1; mode=block
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=104,cfOrigin;dur=30
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=C4JNEI5BJZywSIV7AizyHfPyEbFq4HrZRLozvG8lVIxED%2BKx37Sj7GJPOFtrTulInN7aFFeagJNNIkV0yQ3k5Mp3T1ajKY6uAKqXS70U75fQt6VYccv77xHAqe6%2F7Yuj"}]}
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: a5c81d3c7a0fb989-MIA
+{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NTAxODY1Mn0._Xp767IkC2efn3oPI8Lfhn_1ZcCIuNdJ8cnRNGjWBrc","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NzYwODg1Mn0.ueiznZhA8xDflnQl5z7MiZS9bdRdsRv05ltAZMEK80E","id":1,"username":"emilys","email":"emily.johnson@x.dummyjson.com","firstName":"Emily","lastName":"Johnson","gender":"female","image":"https://dummyjson.com/icon/emilys/128"}
+
+10:47:32.210 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath -- Evaluating path: $['accessToken']
+10:47:32.215 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath -- Evaluating path: $['authToken']
+10:47:32.217 [main] INFO com.intuit.karate -- [print] Token generado correctamente para el usuario ID: 1 
+]]></system-out>
+  </testcase>
+  <testcase name="[2:13] Flujo completo - Login, Creacion de Carrito y Logout" classname="ecommerce.EcommerceRunner" time="2.064">
+    <system-out><![CDATA[10:47:32.226 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath -- Evaluating path: $
+10:47:32.230 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath -- Evaluating path: $
+10:47:32.231 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: karate
+10:47:32.232 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+10:47:32.232 [main] DEBUG com.intuit.karate -- request:
+1 > POST https://dummyjson.com/auth/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 64
+1 > Host: dummyjson.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"emilys","password":"emilyspass","expiresInMins":30}
+
+10:47:32.232 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection request: [route: {s}->https://dummyjson.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+10:47:32.232 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection leased: [id: 1][route: {s}->https://dummyjson.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+10:47:32.232 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Opening connection {s}->https://dummyjson.com:443
+10:47:32.232 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -- Connecting to dummyjson.com/172.67.205.42:443
+10:47:32.232 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Connecting socket to dummyjson.com/172.67.205.42:443 with timeout 5000
+10:47:32.309 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Enabled protocols: [TLSv1.3, TLSv1.2]
+10:47:32.309 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+10:47:32.309 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Starting handshake
+10:47:32.404 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Secure session established
+10:47:32.405 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  negotiated protocol: TLSv1.3
+10:47:32.405 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+10:47:32.405 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  peer principal: CN=dummyjson.com
+10:47:32.405 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  peer alternative names: [dummyjson.com, *.dummyjson.com]
+10:47:32.405 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  issuer principal: CN=WE1, O=Google Trust Services, C=US
+10:47:32.405 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -- Connection established 172.16.211.158:53696<->172.67.205.42:443
+10:47:32.405 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection -- http-outgoing-1: set socket timeout to 5000
+10:47:32.405 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Executing request POST /auth/login HTTP/1.1
+10:47:32.405 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Target auth state: UNCHALLENGED
+10:47:32.406 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Proxy auth state: UNCHALLENGED
+10:47:32.406 [main] DEBUG org.apache.http.headers -- http-outgoing-1 >> POST /auth/login HTTP/1.1
+10:47:32.406 [main] DEBUG org.apache.http.headers -- http-outgoing-1 >> Content-Type: application/json; charset=UTF-8
+10:47:32.406 [main] DEBUG org.apache.http.headers -- http-outgoing-1 >> Content-Length: 64
+10:47:32.406 [main] DEBUG org.apache.http.headers -- http-outgoing-1 >> Host: dummyjson.com
+10:47:32.406 [main] DEBUG org.apache.http.headers -- http-outgoing-1 >> Connection: Keep-Alive
+10:47:32.406 [main] DEBUG org.apache.http.headers -- http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.5)
+10:47:32.406 [main] DEBUG org.apache.http.headers -- http-outgoing-1 >> Accept-Encoding: gzip,deflate
+10:47:32.406 [main] DEBUG org.apache.http.wire -- http-outgoing-1 >> "POST /auth/login HTTP/1.1[\r][\n]"
+10:47:32.406 [main] DEBUG org.apache.http.wire -- http-outgoing-1 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+10:47:32.406 [main] DEBUG org.apache.http.wire -- http-outgoing-1 >> "Content-Length: 64[\r][\n]"
+10:47:32.407 [main] DEBUG org.apache.http.wire -- http-outgoing-1 >> "Host: dummyjson.com[\r][\n]"
+10:47:32.407 [main] DEBUG org.apache.http.wire -- http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+10:47:32.407 [main] DEBUG org.apache.http.wire -- http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.5)[\r][\n]"
+10:47:32.407 [main] DEBUG org.apache.http.wire -- http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10:47:32.407 [main] DEBUG org.apache.http.wire -- http-outgoing-1 >> "[\r][\n]"
+10:47:32.407 [main] DEBUG org.apache.http.wire -- http-outgoing-1 >> "{"username":"emilys","password":"emilyspass","expiresInMins":30}"
+10:47:32.750 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+10:47:32.750 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "Date: Wed, 18 Nov 2026 15:47:32 GMT[\r][\n]"
+10:47:32.750 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+10:47:32.751 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "Transfer-Encoding: chunked[\r][\n]"
+10:47:32.751 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+10:47:32.751 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "access-control-allow-credentials: true[\r][\n]"
+10:47:32.751 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "etag: W/"3a2-zbaNn6O8eNw3EZFnZglVHbWZRNE"[\r][\n]"
+10:47:32.751 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "Set-Cookie: accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NTAxODY1Mn0._Xp767IkC2efn3oPI8Lfhn_1ZcCIuNdJ8cnRNGjWBrc; Max-Age=1800; Path=/; Expires=Wed, 18 Nov 2026 16:17:32 GMT; HttpOnly; Secure[\r][\n]"
+10:47:32.751 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "Set-Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NzYwODg1Mn0.ueiznZhA8xDflnQl5z7MiZS9bdRdsRv05ltAZMEK80E; Max-Age=1800; Path=/; Expires=Wed, 18 Nov 2026 16:17:32 GMT; HttpOnly; Secure[\r][\n]"
+10:47:32.751 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "strict-transport-security: max-age=15552000; includeSubDomains[\r][\n]"
+10:47:32.751 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "vary: Origin, Accept-Encoding[\r][\n]"
+10:47:32.751 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "x-content-type-options: nosniff[\r][\n]"
+10:47:32.752 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "x-dns-prefetch-control: off[\r][\n]"
+10:47:32.752 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "x-download-options: noopen[\r][\n]"
+10:47:32.752 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "x-frame-options: "
+10:47:32.752 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "SAMEORIGIN[\r][\n]"
+10:47:32.752 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "x-ratelimit-limit: 100[\r][\n]"
+10:47:32.752 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "x-ratelimit-remaining: 98[\r][\n]"
+10:47:32.752 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "x-ratelimit-reset: 1795016855[\r][\n]"
+10:47:32.753 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "x-xss-protection: 1; mode=block[\r][\n]"
+10:47:32.753 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "cf-cache-status: DYNAMIC[\r][\n]"
+10:47:32.753 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "Server-Timing: cfCacheStatus;desc="DYNAMIC"[\r][\n]"
+10:47:32.753 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "Server-Timing: cfEdge;dur=220,cfOrigin;dur=30[\r][\n]"
+10:47:32.753 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=cN2Aw6bdsdPRvrj4v3ijg9j%2FWOvew76cpQfRGL0JSf%2BRX3frbsHlG1bpyGdWFM58GDDZTdv00GhXC%2FC9bH%2Fc430k%2FZ2P6Bekh3CRIb7Tr%2F%2BC6v1NEQbPxwQ9hUQpgjyl"}]}[\r][\n]"
+10:47:32.753 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}[\r][\n]"
+10:47:32.754 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "Content-Encoding: gzip[\r][\n]"
+10:47:32.754 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "Server: cloudflare[\r][\n]"
+10:47:32.754 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "CF-RAY: a5c81d3f598895d2-MIA[\r][\n]"
+10:47:32.754 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "[\r][\n]"
+10:47:32.754 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "1da[\r][\n]"
+10:47:32.754 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff][0xed]P][0x97][0x9a]0[0x14][0xfc]/<[0xef]QAYq[0x9f][0xea][0xaa][0xab][0xb1][0x2][0xbb][0x88][0x2]y[0xd9][0x3]!H [0x9][0x94][0x80][0x1f][0xf4][0xf4][0xbf]7[0xd1][0xb6][0xe7][0xf4][0xb5][0xcf]}[0xbb][0x99];3w2[0xdf][0xb5][0x18]!,[0x84]_[0x95][0x98]k/[0x1a][0xbe]m[0xf3]d[0x8d][0x88]K[0xb6][0xe0][0xd0][0x3][0xdd]!@[0x0][0xee][0x99]h[0x1][0x9e]AY[0x87][0xc7][0xc5]v6[0x90][0xa4][0x1a]J[0xc0][0xde]_H[0x1a]:[0x14]13O[0x82][0x83][0x12][0xd1]$[0xa0][0x2][0x87]6[0xd9]-[0xd4][0xfc]V'J[0xc8][0x8e]m[0x1c]\[0xcd][0x1d][0xab][0xcf][0xf1][0xda][0xec][0x13][0xc3][0x9c][0xe3][0x85]Y[0xa6][0x81][0xde][0xe2][0xa0][0x96][0xef]I[0x17][0x19][0xb3][0x16][0x90][0xb][0x81][0x8c][0xde][0xd0][0xd8]s[0xa3]@[0xa7][0xa0][0xa8][0x88][0x17][0xe8]u[0xb2])[0x95][0x9f][0x88]Bg[0xe4][0xb3][0xb7][0x16][0xee][0xef]a~yM[0xd4][0x8e][0xc3][0xc0],a[0x8]T[0x6][0x6][0x3]]~[0xe2][0xa0][0xf0]Zf[0xe0]w>[0xcb]G[0xe9][0xe6][0xb5]w[0x89]u[0x86][0x9b]c[0x9b][0x84][0xf4][0x1b]2f[0xdd][0x8e]9[0xe7]d?[0xab]#5[0x1b][0x8f][0x9c][0xe8]f][0xed][0xe2]t[0xd7]G[0xe1][0x7]q[0x8b][0xd5][0xd8][0xf5][0xf][0x17][0xdb][0x8f]&[0x8e]/[0xb]a[0xc7][0x89]*[0xc4][0xf6][0x91][0xe9][0xf8][0xf3][0xab][0xbb][0x8c]t[0x9b][0x8f][0x6][0x9f]a=}[0x9e][0x82]ra[0xe0][0x8c][0x8f][0xab]w`[0xed][0xb2][0x9c][0xea]P[0x92];'[0xdd]Z[0x88]{[0xce][0xba][0x8]^[0x1b][0xa4]=i[\r][0xce][0x1a],[0xf2][0xff][0xcd][0xff]k[0xf3]}tq[0x97][0xa7]{[0xf3][0x1d]&=[0x87][0xf9][0xdc][0xba].3[0xca]?[0xa8][0xd9]Om[0x2][0xf7][0xb3]$[0xf5]R[0xe1][0x9d]G&m[0xe7][0xd0]^}[0xb5]F+[0xd9]<I[0xb5][0x17][0xfd]I[0xeb][0x4]nx[0xcc][0xb0]*[0x9f][0x11]z[0x13]r[0x85]YL[0xe8]o`PT9[0x17][0x15][0xff]r[0x1d][0xa4][0x1d]c[0xb7]B[0xce][0x3]T1[0xc9][0xcb]H#Z[0xe7]!^)[0xae][0xc4]h[0xfc][0x7][0xda]>[0x84][0x12]<a[0x9e][0xe2]FB[0x99][0xb4][0xa6]X]g[0xf1]Iq[0xf2][0xb6][0xad][0xc5][0xcb]p[0xf8][0x97][0xf5][0x90][0xa0][0x8a][0xf][0x1f]q[0x86][0xba]ai?~[0x2][0x7][0x89]~[0xb7][0xa2][0x3][0x0][0x0][\r][\n]"
+10:47:32.754 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << HTTP/1.1 200 OK
+10:47:32.754 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << Date: Wed, 18 Nov 2026 15:47:32 GMT
+10:47:32.755 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << Content-Type: application/json; charset=utf-8
+10:47:32.755 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << Transfer-Encoding: chunked
+10:47:32.755 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << Connection: keep-alive
+10:47:32.755 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << access-control-allow-credentials: true
+10:47:32.755 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << etag: W/"3a2-zbaNn6O8eNw3EZFnZglVHbWZRNE"
+10:47:32.755 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << Set-Cookie: accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NTAxODY1Mn0._Xp767IkC2efn3oPI8Lfhn_1ZcCIuNdJ8cnRNGjWBrc; Max-Age=1800; Path=/; Expires=Wed, 18 Nov 2026 16:17:32 GMT; HttpOnly; Secure
+10:47:32.755 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << Set-Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NzYwODg1Mn0.ueiznZhA8xDflnQl5z7MiZS9bdRdsRv05ltAZMEK80E; Max-Age=1800; Path=/; Expires=Wed, 18 Nov 2026 16:17:32 GMT; HttpOnly; Secure
+10:47:32.755 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << strict-transport-security: max-age=15552000; includeSubDomains
+10:47:32.755 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << vary: Origin, Accept-Encoding
+10:47:32.755 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << x-content-type-options: nosniff
+10:47:32.755 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << x-dns-prefetch-control: off
+10:47:32.756 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << x-download-options: noopen
+10:47:32.756 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << x-frame-options: SAMEORIGIN
+10:47:32.756 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << x-ratelimit-limit: 100
+10:47:32.756 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << x-ratelimit-remaining: 98
+10:47:32.756 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << x-ratelimit-reset: 1795016855
+10:47:32.756 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << x-xss-protection: 1; mode=block
+10:47:32.756 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << cf-cache-status: DYNAMIC
+10:47:32.756 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << Server-Timing: cfCacheStatus;desc="DYNAMIC"
+10:47:32.756 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << Server-Timing: cfEdge;dur=220,cfOrigin;dur=30
+10:47:32.756 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=cN2Aw6bdsdPRvrj4v3ijg9j%2FWOvew76cpQfRGL0JSf%2BRX3frbsHlG1bpyGdWFM58GDDZTdv00GhXC%2FC9bH%2Fc430k%2FZ2P6Bekh3CRIb7Tr%2F%2BC6v1NEQbPxwQ9hUQpgjyl"}]}
+10:47:32.756 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+10:47:32.757 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << Content-Encoding: gzip
+10:47:32.757 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << Server: cloudflare
+10:47:32.757 [main] DEBUG org.apache.http.headers -- http-outgoing-1 << CF-RAY: a5c81d3f598895d2-MIA
+10:47:32.757 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Connection can be kept alive indefinitely
+10:47:32.758 [main] DEBUG org.apache.http.client.protocol.ResponseProcessCookies -- Cookie accepted [accessToken="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5...", version:0, domain:dummyjson.com, path:/, expiry:Wed Nov 18 11:17:32 GMT-05:00 2026]
+10:47:32.758 [main] DEBUG org.apache.http.client.protocol.ResponseProcessCookies -- Cookie accepted [refreshToken="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5...", version:0, domain:dummyjson.com, path:/, expiry:Wed Nov 18 11:17:32 GMT-05:00 2026]
+10:47:32.758 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "0[\r][\n]"
+10:47:32.759 [main] DEBUG org.apache.http.wire -- http-outgoing-1 << "[\r][\n]"
+10:47:32.759 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection [id: 1][route: {s}->https://dummyjson.com:443] can be kept alive indefinitely
+10:47:32.759 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection -- http-outgoing-1: set socket timeout to 0
+10:47:32.759 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection released: [id: 1][route: {s}->https://dummyjson.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+10:47:32.759 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection manager is shutting down
+10:47:32.759 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection -- http-outgoing-1: Close connection
+10:47:32.760 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection manager shut down
+10:47:32.760 [main] DEBUG com.intuit.karate -- response time in milliseconds: 527
+1 < 200
+1 < Date: Wed, 18 Nov 2026 15:47:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < access-control-allow-credentials: true
+1 < etag: W/"3a2-zbaNn6O8eNw3EZFnZglVHbWZRNE"
+1 < Set-Cookie: accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NTAxODY1Mn0._Xp767IkC2efn3oPI8Lfhn_1ZcCIuNdJ8cnRNGjWBrc; Max-Age=1800; Path=/; Expires=Wed, 18 Nov 2026 16:17:32 GMT; HttpOnly; Secure
+1 < Set-Cookie: refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NzYwODg1Mn0.ueiznZhA8xDflnQl5z7MiZS9bdRdsRv05ltAZMEK80E; Max-Age=1800; Path=/; Expires=Wed, 18 Nov 2026 16:17:32 GMT; HttpOnly; Secure
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < vary: Origin, Accept-Encoding
+1 < x-content-type-options: nosniff
+1 < x-dns-prefetch-control: off
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-ratelimit-limit: 100
+1 < x-ratelimit-remaining: 98
+1 < x-ratelimit-reset: 1795016855
+1 < x-xss-protection: 1; mode=block
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=220,cfOrigin;dur=30
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=cN2Aw6bdsdPRvrj4v3ijg9j%2FWOvew76cpQfRGL0JSf%2BRX3frbsHlG1bpyGdWFM58GDDZTdv00GhXC%2FC9bH%2Fc430k%2FZ2P6Bekh3CRIb7Tr%2F%2BC6v1NEQbPxwQ9hUQpgjyl"}]}
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: a5c81d3f598895d2-MIA
+{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NTAxODY1Mn0._Xp767IkC2efn3oPI8Lfhn_1ZcCIuNdJ8cnRNGjWBrc","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NzYwODg1Mn0.ueiznZhA8xDflnQl5z7MiZS9bdRdsRv05ltAZMEK80E","id":1,"username":"emilys","email":"emily.johnson@x.dummyjson.com","firstName":"Emily","lastName":"Johnson","gender":"female","image":"https://dummyjson.com/icon/emilys/128"}
+
+10:47:32.762 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath -- Evaluating path: $['accessToken']
+10:47:32.771 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath -- Evaluating path: $
+10:47:32.773 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: karate
+10:47:32.773 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+10:47:32.773 [main] DEBUG com.intuit.karate -- request:
+1 > POST https://dummyjson.com/carts/add
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NTAxODY1Mn0._Xp767IkC2efn3oPI8Lfhn_1ZcCIuNdJ8cnRNGjWBrc
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 72
+1 > Host: dummyjson.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"userId":1,"products":[{"id":144,"quantity":2},{"id":98,"quantity":1}]}
+
+10:47:32.773 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection request: [route: {s}->https://dummyjson.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+10:47:32.773 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection leased: [id: 2][route: {s}->https://dummyjson.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+10:47:32.773 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Opening connection {s}->https://dummyjson.com:443
+10:47:32.774 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -- Connecting to dummyjson.com/172.67.205.42:443
+10:47:32.774 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Connecting socket to dummyjson.com/172.67.205.42:443 with timeout 5000
+10:47:32.857 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Enabled protocols: [TLSv1.3, TLSv1.2]
+10:47:32.857 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+10:47:32.858 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Starting handshake
+10:47:32.953 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Secure session established
+10:47:32.954 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  negotiated protocol: TLSv1.3
+10:47:32.954 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+10:47:32.954 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  peer principal: CN=dummyjson.com
+10:47:32.954 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  peer alternative names: [dummyjson.com, *.dummyjson.com]
+10:47:32.954 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  issuer principal: CN=WE1, O=Google Trust Services, C=US
+10:47:32.954 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -- Connection established 172.16.211.158:53698<->172.67.205.42:443
+10:47:32.954 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection -- http-outgoing-2: set socket timeout to 5000
+10:47:32.954 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Executing request POST /carts/add HTTP/1.1
+10:47:32.955 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Proxy auth state: UNCHALLENGED
+10:47:32.955 [main] DEBUG org.apache.http.headers -- http-outgoing-2 >> POST /carts/add HTTP/1.1
+10:47:32.955 [main] DEBUG org.apache.http.headers -- http-outgoing-2 >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NTAxODY1Mn0._Xp767IkC2efn3oPI8Lfhn_1ZcCIuNdJ8cnRNGjWBrc
+10:47:32.955 [main] DEBUG org.apache.http.headers -- http-outgoing-2 >> Content-Type: application/json; charset=UTF-8
+10:47:32.955 [main] DEBUG org.apache.http.headers -- http-outgoing-2 >> Content-Length: 72
+10:47:32.955 [main] DEBUG org.apache.http.headers -- http-outgoing-2 >> Host: dummyjson.com
+10:47:32.955 [main] DEBUG org.apache.http.headers -- http-outgoing-2 >> Connection: Keep-Alive
+10:47:32.955 [main] DEBUG org.apache.http.headers -- http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.5)
+10:47:32.955 [main] DEBUG org.apache.http.headers -- http-outgoing-2 >> Accept-Encoding: gzip,deflate
+10:47:32.955 [main] DEBUG org.apache.http.wire -- http-outgoing-2 >> "POST /carts/add HTTP/1.1[\r][\n]"
+10:47:32.955 [main] DEBUG org.apache.http.wire -- http-outgoing-2 >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NTAxODY1Mn0._Xp767IkC2efn3oPI8Lfhn_1ZcCIuNdJ8cnRNGjWBrc[\r][\n]"
+10:47:32.955 [main] DEBUG org.apache.http.wire -- http-outgoing-2 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+10:47:32.955 [main] DEBUG org.apache.http.wire -- http-outgoing-2 >> "Content-Length: 72[\r][\n]"
+10:47:32.956 [main] DEBUG org.apache.http.wire -- http-outgoing-2 >> "Host: dummyjson.com[\r][\n]"
+10:47:32.956 [main] DEBUG org.apache.http.wire -- http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+10:47:32.956 [main] DEBUG org.apache.http.wire -- http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.5)[\r][\n]"
+10:47:32.956 [main] DEBUG org.apache.http.wire -- http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10:47:32.956 [main] DEBUG org.apache.http.wire -- http-outgoing-2 >> "[\r][\n]"
+10:47:32.956 [main] DEBUG org.apache.http.wire -- http-outgoing-2 >> "{"userId":1,"products":[{"id":144,"quantity":2},{"id":98,"quantity":1}]}"
+10:47:33.114 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "HTTP/1.1 201 Created[\r][\n]"
+10:47:33.115 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "Date: Wed, 18 Nov 2026 15:47:32 GMT[\r][\n]"
+10:47:33.115 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+10:47:33.115 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "Content-Length: 585[\r][\n]"
+10:47:33.115 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+10:47:33.115 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "access-control-allow-credentials: true[\r][\n]"
+10:47:33.115 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "etag: W/"249-WQAYKs60M9ex8dKEsD1VMEn2kHg"[\r][\n]"
+10:47:33.115 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "strict-transport-security: max-age=15552000; includeSubDomains[\r][\n]"
+10:47:33.115 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "vary: Origin, Accept-Encoding[\r][\n]"
+10:47:33.115 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "x-content-type-options: nosniff[\r][\n]"
+10:47:33.116 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "x-dns-prefetch-control: off[\r][\n]"
+10:47:33.116 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "x-download-options: noopen[\r][\n]"
+10:47:33.116 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "x-frame-options: SAMEORIGIN[\r][\n]"
+10:47:33.116 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "x-ratelimit-limit: 100[\r][\n]"
+10:47:33.116 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "x-ratelimit-remaining: 97[\r][\n]"
+10:47:33.116 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "x-ratelimit-reset: 1795016855[\r][\n]"
+10:47:33.116 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "x-xss-protection: 1; mode=block[\r][\n]"
+10:47:33.116 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "cf-cache-status: DYNAMIC[\r][\n]"
+10:47:33.116 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "Server-Timing: cfCacheStatus;desc="DYNAMIC"[\r][\n]"
+10:47:33.116 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "Server-Timing: cfEdge;dur=35,cfOrigin;dur=29[\r][\n]"
+10:47:33.116 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pCxWKn%2F%2FCyaKGiRuVu22npiZpBXJs2jFxK1zqkBXuaxXQKY%2FWVBeRAYOaYg8qzbbUpmdTo6hLXN3nfXxW%2F4a0paRSHUBUOv5oCpY%2B38HLpKHUnt%2Fz%2FpvsbtUAoxrT8ra"}]}[\r][\n]"
+10:47:33.116 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}[\r][\n]"
+10:47:33.116 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "Server: cloudflare[\r][\n]"
+10:47:33.116 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "CF-RAY: a5c81d42bcc353f5-MIA[\r][\n]"
+10:47:33.117 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "[\r][\n]"
+10:47:33.117 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "{"id":209,"products":[{"id":144,"title":"Cricket Helmet","price":44.99,"quantity":2,"total":89.98,"discountPercentage":9.64,"discountedPrice":81,"thumbnail":"https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/thumbnail.webp"},{"id":98,"title":"Rolex Submariner Watch","price":13999.99,"qu"
+10:47:33.117 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << HTTP/1.1 201 Created
+10:47:33.117 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << Date: Wed, 18 Nov 2026 15:47:32 GMT
+10:47:33.117 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << Content-Type: application/json; charset=utf-8
+10:47:33.117 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << Content-Length: 585
+10:47:33.118 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << Connection: keep-alive
+10:47:33.118 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << access-control-allow-credentials: true
+10:47:33.118 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << etag: W/"249-WQAYKs60M9ex8dKEsD1VMEn2kHg"
+10:47:33.118 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << strict-transport-security: max-age=15552000; includeSubDomains
+10:47:33.119 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << vary: Origin, Accept-Encoding
+10:47:33.119 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << x-content-type-options: nosniff
+10:47:33.119 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << x-dns-prefetch-control: off
+10:47:33.119 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << x-download-options: noopen
+10:47:33.119 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << x-frame-options: SAMEORIGIN
+10:47:33.119 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << x-ratelimit-limit: 100
+10:47:33.120 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << x-ratelimit-remaining: 97
+10:47:33.120 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << x-ratelimit-reset: 1795016855
+10:47:33.120 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << x-xss-protection: 1; mode=block
+10:47:33.120 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << cf-cache-status: DYNAMIC
+10:47:33.120 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << Server-Timing: cfCacheStatus;desc="DYNAMIC"
+10:47:33.121 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << Server-Timing: cfEdge;dur=35,cfOrigin;dur=29
+10:47:33.121 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pCxWKn%2F%2FCyaKGiRuVu22npiZpBXJs2jFxK1zqkBXuaxXQKY%2FWVBeRAYOaYg8qzbbUpmdTo6hLXN3nfXxW%2F4a0paRSHUBUOv5oCpY%2B38HLpKHUnt%2Fz%2FpvsbtUAoxrT8ra"}]}
+10:47:33.121 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+10:47:33.121 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << Server: cloudflare
+10:47:33.121 [main] DEBUG org.apache.http.headers -- http-outgoing-2 << CF-RAY: a5c81d42bcc353f5-MIA
+10:47:33.122 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Connection can be kept alive indefinitely
+10:47:33.123 [main] DEBUG org.apache.http.wire -- http-outgoing-2 << "antity":1,"total":13999.99,"discountPercentage":5.05,"discountedPrice":13293,"thumbnail":"https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp"}],"total":14089.97,"discountedTotal":13374,"userId":1,"totalProducts":2,"totalQuantity":3}"
+10:47:33.123 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection [id: 2][route: {s}->https://dummyjson.com:443] can be kept alive indefinitely
+10:47:33.123 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection -- http-outgoing-2: set socket timeout to 0
+10:47:33.123 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection released: [id: 2][route: {s}->https://dummyjson.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+10:47:33.123 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection manager is shutting down
+10:47:33.124 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection -- http-outgoing-2: Close connection
+10:47:33.124 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection manager shut down
+10:47:33.125 [main] DEBUG com.intuit.karate -- response time in milliseconds: 350
+1 < 201
+1 < Date: Wed, 18 Nov 2026 15:47:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 585
+1 < Connection: keep-alive
+1 < access-control-allow-credentials: true
+1 < etag: W/"249-WQAYKs60M9ex8dKEsD1VMEn2kHg"
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < vary: Origin, Accept-Encoding
+1 < x-content-type-options: nosniff
+1 < x-dns-prefetch-control: off
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-ratelimit-limit: 100
+1 < x-ratelimit-remaining: 97
+1 < x-ratelimit-reset: 1795016855
+1 < x-xss-protection: 1; mode=block
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=35,cfOrigin;dur=29
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pCxWKn%2F%2FCyaKGiRuVu22npiZpBXJs2jFxK1zqkBXuaxXQKY%2FWVBeRAYOaYg8qzbbUpmdTo6hLXN3nfXxW%2F4a0paRSHUBUOv5oCpY%2B38HLpKHUnt%2Fz%2FpvsbtUAoxrT8ra"}]}
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: a5c81d42bcc353f5-MIA
+{"id":209,"products":[{"id":144,"title":"Cricket Helmet","price":44.99,"quantity":2,"total":89.98,"discountPercentage":9.64,"discountedPrice":81,"thumbnail":"https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/thumbnail.webp"},{"id":98,"title":"Rolex Submariner Watch","price":13999.99,"quantity":1,"total":13999.99,"discountPercentage":5.05,"discountedPrice":13293,"thumbnail":"https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp"}],"total":14089.97,"discountedTotal":13374,"userId":1,"totalProducts":2,"totalQuantity":3}
+
+10:47:33.127 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath -- Evaluating path: $['id']
+10:47:33.128 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath -- Evaluating path: $['total']
+10:47:33.132 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath -- Evaluating path: $['totalProducts']
+10:47:33.135 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath -- Evaluating path: $
+10:47:33.141 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: karate
+10:47:33.142 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+10:47:33.142 [main] DEBUG com.intuit.karate -- request:
+1 > GET https://dummyjson.com/auth/me
+1 > Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NTAxODY1Mn0._Xp767IkC2efn3oPI8Lfhn_1ZcCIuNdJ8cnRNGjWBrc
+1 > Host: dummyjson.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:47:33.142 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection request: [route: {s}->https://dummyjson.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+10:47:33.142 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection leased: [id: 3][route: {s}->https://dummyjson.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+10:47:33.142 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Opening connection {s}->https://dummyjson.com:443
+10:47:33.142 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -- Connecting to dummyjson.com/172.67.205.42:443
+10:47:33.143 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Connecting socket to dummyjson.com/172.67.205.42:443 with timeout 5000
+10:47:33.219 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Enabled protocols: [TLSv1.3, TLSv1.2]
+10:47:33.220 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+10:47:33.220 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Starting handshake
+10:47:33.340 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Secure session established
+10:47:33.341 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  negotiated protocol: TLSv1.3
+10:47:33.341 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+10:47:33.341 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  peer principal: CN=dummyjson.com
+10:47:33.341 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  peer alternative names: [dummyjson.com, *.dummyjson.com]
+10:47:33.341 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  issuer principal: CN=WE1, O=Google Trust Services, C=US
+10:47:33.341 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -- Connection established 172.16.211.158:53699<->172.67.205.42:443
+10:47:33.341 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection -- http-outgoing-3: set socket timeout to 5000
+10:47:33.341 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Executing request GET /auth/me HTTP/1.1
+10:47:33.342 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Proxy auth state: UNCHALLENGED
+10:47:33.342 [main] DEBUG org.apache.http.headers -- http-outgoing-3 >> GET /auth/me HTTP/1.1
+10:47:33.342 [main] DEBUG org.apache.http.headers -- http-outgoing-3 >> Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NTAxODY1Mn0._Xp767IkC2efn3oPI8Lfhn_1ZcCIuNdJ8cnRNGjWBrc
+10:47:33.342 [main] DEBUG org.apache.http.headers -- http-outgoing-3 >> Host: dummyjson.com
+10:47:33.342 [main] DEBUG org.apache.http.headers -- http-outgoing-3 >> Connection: Keep-Alive
+10:47:33.342 [main] DEBUG org.apache.http.headers -- http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.5)
+10:47:33.342 [main] DEBUG org.apache.http.headers -- http-outgoing-3 >> Accept-Encoding: gzip,deflate
+10:47:33.343 [main] DEBUG org.apache.http.wire -- http-outgoing-3 >> "GET /auth/me HTTP/1.1[\r][\n]"
+10:47:33.343 [main] DEBUG org.apache.http.wire -- http-outgoing-3 >> "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJlbWlseXMiLCJlbWFpbCI6ImVtaWx5LmpvaG5zb25AeC5kdW1teWpzb24uY29tIiwiZmlyc3ROYW1lIjoiRW1pbHkiLCJsYXN0TmFtZSI6IkpvaG5zb24iLCJnZW5kZXIiOiJmZW1hbGUiLCJpbWFnZSI6Imh0dHBzOi8vZHVtbXlqc29uLmNvbS9pY29uL2VtaWx5cy8xMjgiLCJpYXQiOjE3OTUwMTY4NTIsImV4cCI6MTc5NTAxODY1Mn0._Xp767IkC2efn3oPI8Lfhn_1ZcCIuNdJ8cnRNGjWBrc[\r][\n]"
+10:47:33.343 [main] DEBUG org.apache.http.wire -- http-outgoing-3 >> "Host: dummyjson.com[\r][\n]"
+10:47:33.343 [main] DEBUG org.apache.http.wire -- http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+10:47:33.343 [main] DEBUG org.apache.http.wire -- http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.5)[\r][\n]"
+10:47:33.343 [main] DEBUG org.apache.http.wire -- http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10:47:33.343 [main] DEBUG org.apache.http.wire -- http-outgoing-3 >> "[\r][\n]"
+10:47:33.530 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+10:47:33.531 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "Date: Wed, 18 Nov 2026 15:47:33 GMT[\r][\n]"
+10:47:33.531 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+10:47:33.532 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "Transfer-Encoding: chunked[\r][\n]"
+10:47:33.532 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "Connection: keep-alive[\r][\n]"
+10:47:33.532 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "access-control-allow-credentials: true[\r][\n]"
+10:47:33.532 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}[\r][\n]"
+10:47:33.532 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "etag: W/"58f-CoL/KoXlW3x1PtqQr3wqPsXj6DE"[\r][\n]"
+10:47:33.532 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "strict-transport-security: max-age=15552000; includeSubDomains[\r][\n]"
+10:47:33.533 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "vary: Origin, Accept-Encoding[\r][\n]"
+10:47:33.533 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "x-content-type-options: nosniff[\r][\n]"
+10:47:33.533 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "x-dns-prefetch-control: off[\r][\n]"
+10:47:33.533 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "x-download-options: noopen[\r][\n]"
+10:47:33.533 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "x-frame-options: SAMEORIGIN[\r][\n]"
+10:47:33.533 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "x-ratelimit-limit: 100[\r][\n]"
+10:47:33.533 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "x-ratelimit-remaining: 96[\r][\n]"
+10:47:33.533 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "x-ratelimit-reset: 1795016855[\r][\n]"
+10:47:33.534 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "x-xss-protection: 1; mode=block[\r][\n]"
+10:47:33.534 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "cf-cache-status: DYNAMIC[\r][\n]"
+10:47:33.534 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "Server-Timing: cfCacheStatus;desc="DYNAMIC"[\r][\n]"
+10:47:33.534 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "Server-Timing: cfEdge;dur=45,cfOrigin;dur=32[\r][\n]"
+10:47:33.534 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2FRiVNelGnN%2FnOXlh%2FfclNydf%2BS8q2tXAWhT5uYbnZ%2FcKEOyToye4lD8hG9f1j%2BJ4y1y7bIHmE%2BHfpq7sj%2B8xlamy5mQ0Wdf7TGnETEgWDiR6yWs6HDaiGEvLywkcxZDU"}]}[\r][\n]"
+10:47:33.534 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "Content-Encoding: gzip[\r][\n]"
+10:47:33.535 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "Server: cloudflare[\r][\n]"
+10:47:33.535 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "CF-RAY: a5c81d452ab2f70c-MIA[\r][\n]"
+10:47:33.535 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "[\r][\n]"
+10:47:33.535 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "359[\r][\n]"
+10:47:33.535 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xff]}T[0xdb]n[0xdc]6[0x10][0xfd][0x15]BO6[0xba][0xba][0x90][0xd4]u[0xfb]R{[0xed][0xd8][0x89][0xb3][0x8e][0xe1][0xb5][0xe1][0xb6]/[0x1]%Q+[0xc6][0x14])PTm%[0xf0][0xbf]w(m[0x16]m[0x8a][0x14]0`[0xcd][0x19]r[0xe6][0xcc][0xe1][0x99][0xfd][0xe6][0x89][0xda][[0xe3][0x95][0xd7][0x8]3[0xd8][[0xd6]qo[0xed]]vBN[0xde][0xca][0x93][0xec][0x8]}[0xd0][0xad][0x1a][0xb4][0x2][0xb0]c[0xa2][0xe6][0xea][0x0][0xef]:a[[0x0][0xd9][0x1e]"R[0xac][0xbc]=W57[0x90]ix[0xc7]$[0x87][0x14][0xfc][0x17][0x12][0x0][0xee][0x8a][0x6]_[0x96]:[0xbf][0xbd][0x6][0xf5][0xd8]u[0xd3][0x17][0xf8][0xe]*[0xdd][0xc1][0xb9][0xbe][0xd5][0xca][0x95][0xfc]%[0xc7][0xa8]H[0x13]?[0xa6][0xd8][0xa7][0x11][0x89]!5[0xe][0xdc][0xa8][0xa5][0xe1]\ep[0xc7][0xd9]0[0xbc]hS[0x1f]1[0x7][0x0]^[\n]"
+10:47:33.535 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "c[0xdb][0xb]f[0xdd]a\[0x14][0xa9][0x9f]@[0x15][0xc0]E7s[0xf4]Zk[0xfb]a[0x1d][0x86][0xff]j[0x1f][0x8a]J[0xab]p[0xa9][0x13]b[0x92][0xbb]:R[0xeb][0xfa][0xca][0xe8][0xb1][0x87]K[0x9f]|@Z.[0xf6][0xad][0x5][0xb1][\n]"
+10:47:33.536 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "[0x1a][0x90]x[0xe5][0xbd][0x1c][0xe2][0x94][0x6]8[0x85]9'[0xbe][0xd1]R[0xbb][0xd9][0xaf][0xc][0xe7]N[0xaa][0x96][0x9][0x8][0xbf]y[0xd5][0x1]?7[0xfa][0xc5][0xe1]"
+10:47:33.536 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << HTTP/1.1 200 OK
+10:47:33.536 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << Date: Wed, 18 Nov 2026 15:47:33 GMT
+10:47:33.537 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << Content-Type: application/json; charset=utf-8
+10:47:33.537 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << Transfer-Encoding: chunked
+10:47:33.537 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << Connection: keep-alive
+10:47:33.537 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << access-control-allow-credentials: true
+10:47:33.538 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+10:47:33.538 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << etag: W/"58f-CoL/KoXlW3x1PtqQr3wqPsXj6DE"
+10:47:33.538 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << strict-transport-security: max-age=15552000; includeSubDomains
+10:47:33.538 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << vary: Origin, Accept-Encoding
+10:47:33.538 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << x-content-type-options: nosniff
+10:47:33.538 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << x-dns-prefetch-control: off
+10:47:33.538 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << x-download-options: noopen
+10:47:33.538 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << x-frame-options: SAMEORIGIN
+10:47:33.539 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << x-ratelimit-limit: 100
+10:47:33.539 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << x-ratelimit-remaining: 96
+10:47:33.539 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << x-ratelimit-reset: 1795016855
+10:47:33.539 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << x-xss-protection: 1; mode=block
+10:47:33.539 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << cf-cache-status: DYNAMIC
+10:47:33.539 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << Server-Timing: cfCacheStatus;desc="DYNAMIC"
+10:47:33.539 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << Server-Timing: cfEdge;dur=45,cfOrigin;dur=32
+10:47:33.539 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2FRiVNelGnN%2FnOXlh%2FfclNydf%2BS8q2tXAWhT5uYbnZ%2FcKEOyToye4lD8hG9f1j%2BJ4y1y7bIHmE%2BHfpq7sj%2B8xlamy5mQ0Wdf7TGnETEgWDiR6yWs6HDaiGEvLywkcxZDU"}]}
+10:47:33.539 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << Content-Encoding: gzip
+10:47:33.539 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << Server: cloudflare
+10:47:33.540 [main] DEBUG org.apache.http.headers -- http-outgoing-3 << CF-RAY: a5c81d452ab2f70c-MIA
+10:47:33.540 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Connection can be kept alive indefinitely
+10:47:33.541 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "v[0xea][0x1d][0x95][0xcd]h@[0xe6]7[0xe0][0xe6]z[0xc4]$[0x88][0xf3][0x0]GQ@[0x89]S[0xb4][0xae][\r][0x87][0x89][0xe0][0xfa][0xf1][0xd3]KI[0x8a][0xb6]L([0xb4][0xb3][0xd0][0xc2][0xc2][0xb1]J[0xd8][0x9][0x12]w[0xad][0xe6]J[0xbc][0x2]0[0xd8]e[0xf6][0xad][0x18][0x6][0xf7][0xd7][0xf7][0xe2];[0xba][0xd1][0xf5][0x9c][0xd9]9[0xf9]4@[0xf2][0x80][0x90][0x2]c[0xd7][0xb3][0xd2] [0xa8]Ppt[0xee]+[0x19]L[0xe7]g[0x19][0x8c]G0[0x5];[0xa8]=[0xc4][0x5][0x9][0xa2]<[0xce]I[0xfc][0xe6].[0x8c][0xca][0x1a]G[0xe0]Q[0x9][0xcb]k[0xe0]5_~s6[0xa9][0xce][0x8e][0xbc][0xe3]l[0xdd][0xb0]u[0x8c][0xd7]8_[0xf3]j[0xcd]K[0xf7][0xa8]J[0xfc][0xc5][0xcd][0xb0][0xf0]<[0x6]H7[0xe8]I[0xc][0xf0][0x1e][0x83]P[0xbe][0xbf]e[0xb5]X|W2[0xf5]<[0x8b][0xc9]L}[0xf9][0xda][0xb][0xe3][0x98]GI8[0xbf][0x96][0x3]o[0xc7][0xae][0x9c][0xad]G[0xd3][0x82][0x12]J[0x13][0x8c][0xf3]$[0x89][0xe2][0xf8][0x90]XT[0xbf][0x10][\n]"
+10:47:33.541 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << ":[0xa1][0x8d][0x1c]K[0xf4]^Y[0xe7],+[0xb4]b[0xd2][0x1d][0x1b][0x8d][0xe1][0xaa]r[0x8c][0xae][0xce][0xef][0x9c]k[0xa0][0xeb][0x1c]d[0xf1][0xf6][0x9a]<[0xfe][0xf9][0xf1][0xbe]x[0xb8][0xbf][0xbb][0xfe][0xe3][0xf6]1[0x97]{[0xb3][0x2]][0xcf][0xd4][0xe4][0x88][0xd5][0xbc]g[0xc6]v\Y[0xb7]Bj[0xf]}[0xb8][0x11][0xa0][0xd9][0xca];[0x98][0xf7]Bk[0xc9][0xa7][0x15][0xba][0xd1]_[0xf9][0x84][0x98][0xaa][0xd1][0xc6]h%fK[0x8]+[0xe7][0x85][0x82][0xa5][0x19][0xe0][0x8d][0x15][0xb8][0xd5][0xfc][0xcc][0x6]$[0xa5][0xe8][0x1][0xfa][0xb4][0xff][0xf1][0xc1][0x8e])[0xf4][0xce]0U9[0x5][0xff][0xe1][0x86][0xa3][0xa2]?x[0xe1][0xe9][0xfd][0x8f]^[0xa0]Y[0x9a]d?[0xf1]B[0x86][0x83][0x1c][0xc7][0x9]I[0xbe]{[0x1][0xa7]8[0xc0]I[0x4]|[0xfe][0xcf][0xc][0x90][0xe3][0xc2][0xc9]Xd[0x99][0x8f][0xb3][0xc4]q[0x18][0xe6]8[0x8a][0xfc][0xa4][0x88]|[0x92][0x17][0x87]-?[0xdb]/[0xf2]m[0xf5]W!%[0xb][0x93] B'[V[0x9]e[0xf5][0xd0][0xfe]:?[0x98][0x4]y*[0xf4]i[0x87]~G8[0xfa][0x8c][0x93][0xcf][0xd9]):[0xeb]{[0xc9][0x9f]xy#l[0x98][0xd0],[0xa0]):[0xb9][0xb9]~[0xd8]~\!)[0x9e]9[0xba][0xe2][0xd5][0xb3]>E[0x9b][0xd6][0xe8][0x8e][0x87]E[0x1a]DA[0x9c][0xa6]qPP[0xb4]c[\r]3[0xe2]p[0xcb][\r]n[0xa6][0xde][0xea]emg[0xd6][0xe7][0xc2][0xce]_[0xb0][0xf1]LJ[0xee][0xe8]E[0xaf]e[0xd1]T[0xa4][0xe1])-[0x9]K[0xab]([0xa2][\r][0xae]([0x89]+Z6,[0xa1]$)[0xdc][0xce][0xe4][0x98][0xb9][0xc7][0xe7][0x16]~[0xa8][0x9e][0x9d])l[0xcb][\r][0x1f];try[0xbf]![0xd1][0xa9]3[0x90][0xd1][0xf3][0xbb][0xb3][0xba][0x83][0x16]o[0x3]g3DF[0x8f][0x5][0x0][0x0][\r][\n]"
+10:47:33.542 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "0[\r][\n]"
+10:47:33.542 [main] DEBUG org.apache.http.wire -- http-outgoing-3 << "[\r][\n]"
+10:47:33.542 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection [id: 3][route: {s}->https://dummyjson.com:443] can be kept alive indefinitely
+10:47:33.542 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection -- http-outgoing-3: set socket timeout to 0
+10:47:33.543 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection released: [id: 3][route: {s}->https://dummyjson.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+10:47:33.543 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection manager is shutting down
+10:47:33.543 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection -- http-outgoing-3: Close connection
+10:47:33.544 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection manager shut down
+10:47:33.545 [main] DEBUG com.intuit.karate -- response time in milliseconds: 401
+1 < 200
+1 < Date: Wed, 18 Nov 2026 15:47:33 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < access-control-allow-credentials: true
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < etag: W/"58f-CoL/KoXlW3x1PtqQr3wqPsXj6DE"
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < vary: Origin, Accept-Encoding
+1 < x-content-type-options: nosniff
+1 < x-dns-prefetch-control: off
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-ratelimit-limit: 100
+1 < x-ratelimit-remaining: 96
+1 < x-ratelimit-reset: 1795016855
+1 < x-xss-protection: 1; mode=block
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=45,cfOrigin;dur=32
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2FRiVNelGnN%2FnOXlh%2FfclNydf%2BS8q2tXAWhT5uYbnZ%2FcKEOyToye4lD8hG9f1j%2BJ4y1y7bIHmE%2BHfpq7sj%2B8xlamy5mQ0Wdf7TGnETEgWDiR6yWs6HDaiGEvLywkcxZDU"}]}
+1 < Server: cloudflare
+1 < CF-RAY: a5c81d452ab2f70c-MIA
+{"id":1,"firstName":"Emily","lastName":"Johnson","maidenName":"Smith","age":29,"gender":"female","email":"emily.johnson@x.dummyjson.com","phone":"+81 965-431-3024","username":"emilys","password":"emilyspass","birthDate":"1996-5-30","image":"https://dummyjson.com/icon/emilys/128","bloodGroup":"O-","height":193.24,"weight":63.16,"eyeColor":"Green","hair":{"color":"Brown","type":"Curly"},"ip":"42.48.100.32","address":{"address":"626 Main Street","city":"Phoenix","state":"Mississippi","stateCode":"MS","postalCode":"29112","coordinates":{"lat":-77.16213,"lng":-92.084824},"country":"United States"},"macAddress":"47:fa:41:18:ec:eb","university":"University of Wisconsin--Madison","bank":{"cardExpire":"05/28","cardNumber":"3693233511855044","cardType":"Diners Club International","currency":"GBP","iban":"GB74MH2UZLR9TRPHYNU8F8"},"company":{"department":"Engineering","name":"Dooley, Kozey and Cronin","title":"Sales Manager","address":{"address":"263 Tenth Street","city":"San Francisco","state":"Wisconsin","stateCode":"WI","postalCode":"37657","coordinates":{"lat":71.814525,"lng":-161.150263},"country":"United States"}},"ein":"977-175","ssn":"900-590-289","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36","crypto":{"coin":"Bitcoin","wallet":"0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a","network":"Ethereum (ERC20)"},"role":"admin"}
+
+10:47:33.550 [main] DEBUG com.intuit.karate.core.ScenarioEngine -- over-writing existing variable 'tokenActivo' with new value: null
+10:47:33.554 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: karate
+10:47:33.554 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+10:47:33.554 [main] DEBUG com.intuit.karate -- request:
+2 > GET https://dummyjson.com/auth/me
+2 > Host: dummyjson.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.5)
+2 > Accept-Encoding: gzip,deflate
+
+
+10:47:33.555 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection request: [route: {s}->https://dummyjson.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+10:47:33.555 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection leased: [id: 4][route: {s}->https://dummyjson.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+10:47:33.555 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Opening connection {s}->https://dummyjson.com:443
+10:47:33.555 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -- Connecting to dummyjson.com/172.67.205.42:443
+10:47:33.555 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Connecting socket to dummyjson.com/172.67.205.42:443 with timeout 5000
+10:47:33.633 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Enabled protocols: [TLSv1.3, TLSv1.2]
+10:47:33.633 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+10:47:33.633 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Starting handshake
+10:47:33.734 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -- Secure session established
+10:47:33.734 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  negotiated protocol: TLSv1.3
+10:47:33.734 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+10:47:33.734 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  peer principal: CN=dummyjson.com
+10:47:33.734 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  peer alternative names: [dummyjson.com, *.dummyjson.com]
+10:47:33.735 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory --  issuer principal: CN=WE1, O=Google Trust Services, C=US
+10:47:33.735 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator -- Connection established 172.16.211.158:53700<->172.67.205.42:443
+10:47:33.735 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection -- http-outgoing-4: set socket timeout to 5000
+10:47:33.735 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Executing request GET /auth/me HTTP/1.1
+10:47:33.735 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Target auth state: UNCHALLENGED
+10:47:33.735 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Proxy auth state: UNCHALLENGED
+10:47:33.736 [main] DEBUG org.apache.http.headers -- http-outgoing-4 >> GET /auth/me HTTP/1.1
+10:47:33.736 [main] DEBUG org.apache.http.headers -- http-outgoing-4 >> Host: dummyjson.com
+10:47:33.736 [main] DEBUG org.apache.http.headers -- http-outgoing-4 >> Connection: Keep-Alive
+10:47:33.736 [main] DEBUG org.apache.http.headers -- http-outgoing-4 >> User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.5)
+10:47:33.736 [main] DEBUG org.apache.http.headers -- http-outgoing-4 >> Accept-Encoding: gzip,deflate
+10:47:33.736 [main] DEBUG org.apache.http.wire -- http-outgoing-4 >> "GET /auth/me HTTP/1.1[\r][\n]"
+10:47:33.736 [main] DEBUG org.apache.http.wire -- http-outgoing-4 >> "Host: dummyjson.com[\r][\n]"
+10:47:33.736 [main] DEBUG org.apache.http.wire -- http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+10:47:33.736 [main] DEBUG org.apache.http.wire -- http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.5.14 (Java/25.0.5)[\r][\n]"
+10:47:33.736 [main] DEBUG org.apache.http.wire -- http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+10:47:33.736 [main] DEBUG org.apache.http.wire -- http-outgoing-4 >> "[\r][\n]"
+10:47:33.960 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+10:47:33.961 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "Date: Wed, 18 Nov 2026 15:47:33 GMT[\r][\n]"
+10:47:33.961 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+10:47:33.961 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "Content-Length: 38[\r][\n]"
+10:47:33.961 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "Connection: keep-alive[\r][\n]"
+10:47:33.961 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "access-control-allow-credentials: true[\r][\n]"
+10:47:33.962 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "etag: W/"26-TtDLQtfPAa5hR/eRnAb5xDEDYiA"[\r][\n]"
+10:47:33.962 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "Set-Cookie: accessToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT[\r][\n]"
+10:47:33.962 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "Set-Cookie: refreshToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT[\r][\n]"
+10:47:33.962 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "strict-transport-security: max-age=15552000; includeSubDomains[\r][\n]"
+10:47:33.963 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "vary: Origin, Accept-Encoding[\r][\n]"
+10:47:33.963 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "x-content-type-options: nosniff[\r][\n]"
+10:47:33.963 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "x-dns-prefetch-control: off[\r][\n]"
+10:47:33.963 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "x-download-options: noopen[\r][\n]"
+10:47:33.963 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "x-frame-options: SAMEORIGIN[\r][\n]"
+10:47:33.963 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "x-ratelimit-limit: 100[\r][\n]"
+10:47:33.963 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "x-ratelimit-remaining: 99[\r][\n]"
+10:47:33.963 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "x-ratelimit-reset: 1795016855[\r][\n]"
+10:47:33.963 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "x-xss-protection: 1; mode=block[\r][\n]"
+10:47:33.963 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "cf-cache-status: DYNAMIC[\r][\n]"
+10:47:33.964 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "Server-Timing: cfCacheStatus;desc="DYNAMIC"[\r][\n]"
+10:47:33.964 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "Server-Timing: cfEdge;dur=9,cfOrigin;dur=130[\r][\n]"
+10:47:33.964 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=z%2Fy%2Famjpztwjayh5XeZhX60c9xq%2FgRwk7Aqr%2F4K7cSVTkbmznTQt5DzLcaqEvuAwUDL6qui5JLMkFmQZKwv0Ghl1ZE6AMqTjzAjNSaIqWQmld1fhtMzCMkveqInEy2w8"}]}[\r][\n]"
+10:47:33.964 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}[\r][\n]"
+10:47:33.964 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "Server: cloudflare[\r][\n]"
+10:47:33.964 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "CF-RAY: a5c81d479ff7b2bc-MIA[\r][\n]"
+10:47:33.964 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "[\r][\n]"
+10:47:33.964 [main] DEBUG org.apache.http.wire -- http-outgoing-4 << "{"message":"Access Token is required"}"
+10:47:33.965 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << HTTP/1.1 401 Unauthorized
+10:47:33.965 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << Date: Wed, 18 Nov 2026 15:47:33 GMT
+10:47:33.965 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << Content-Type: application/json; charset=utf-8
+10:47:33.965 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << Content-Length: 38
+10:47:33.965 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << Connection: keep-alive
+10:47:33.965 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << access-control-allow-credentials: true
+10:47:33.965 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << etag: W/"26-TtDLQtfPAa5hR/eRnAb5xDEDYiA"
+10:47:33.965 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << Set-Cookie: accessToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+10:47:33.965 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << Set-Cookie: refreshToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+10:47:33.966 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << strict-transport-security: max-age=15552000; includeSubDomains
+10:47:33.966 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << vary: Origin, Accept-Encoding
+10:47:33.966 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << x-content-type-options: nosniff
+10:47:33.966 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << x-dns-prefetch-control: off
+10:47:33.966 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << x-download-options: noopen
+10:47:33.966 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << x-frame-options: SAMEORIGIN
+10:47:33.966 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << x-ratelimit-limit: 100
+10:47:33.966 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << x-ratelimit-remaining: 99
+10:47:33.966 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << x-ratelimit-reset: 1795016855
+10:47:33.966 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << x-xss-protection: 1; mode=block
+10:47:33.966 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << cf-cache-status: DYNAMIC
+10:47:33.966 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << Server-Timing: cfCacheStatus;desc="DYNAMIC"
+10:47:33.966 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << Server-Timing: cfEdge;dur=9,cfOrigin;dur=130
+10:47:33.967 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=z%2Fy%2Famjpztwjayh5XeZhX60c9xq%2FgRwk7Aqr%2F4K7cSVTkbmznTQt5DzLcaqEvuAwUDL6qui5JLMkFmQZKwv0Ghl1ZE6AMqTjzAjNSaIqWQmld1fhtMzCMkveqInEy2w8"}]}
+10:47:33.967 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+10:47:33.967 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << Server: cloudflare
+10:47:33.967 [main] DEBUG org.apache.http.headers -- http-outgoing-4 << CF-RAY: a5c81d479ff7b2bc-MIA
+10:47:33.967 [main] DEBUG org.apache.http.impl.execchain.MainClientExec -- Connection can be kept alive indefinitely
+10:47:33.967 [main] DEBUG org.apache.http.impl.auth.HttpAuthenticator -- Authentication required
+10:47:33.967 [main] DEBUG org.apache.http.impl.auth.HttpAuthenticator -- dummyjson.com:443 requested authentication
+10:47:33.968 [main] DEBUG org.apache.http.impl.auth.HttpAuthenticator -- Response contains no authentication challenges
+10:47:33.968 [main] DEBUG org.apache.http.client.protocol.ResponseProcessCookies -- Cookie accepted [accessToken="", version:0, domain:dummyjson.com, path:/, expiry:Wed Dec 31 19:00:00 GMT-05:00 1969]
+10:47:33.969 [main] DEBUG org.apache.http.client.protocol.ResponseProcessCookies -- Cookie accepted [refreshToken="", version:0, domain:dummyjson.com, path:/, expiry:Wed Dec 31 19:00:00 GMT-05:00 1969]
+10:47:33.970 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection [id: 4][route: {s}->https://dummyjson.com:443] can be kept alive indefinitely
+10:47:33.970 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection -- http-outgoing-4: set socket timeout to 0
+10:47:33.971 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection released: [id: 4][route: {s}->https://dummyjson.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+10:47:33.971 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection manager is shutting down
+10:47:33.971 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection -- http-outgoing-4: Close connection
+10:47:33.972 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager -- Connection manager shut down
+10:47:33.977 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap -- -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+10:47:33.978 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap -- -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+10:47:33.979 [main] DEBUG com.intuit.karate -- response time in milliseconds: 417
+2 < 401
+2 < Date: Wed, 18 Nov 2026 15:47:33 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Content-Length: 38
+2 < Connection: keep-alive
+2 < access-control-allow-credentials: true
+2 < etag: W/"26-TtDLQtfPAa5hR/eRnAb5xDEDYiA"
+2 < Set-Cookie: accessToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+2 < Set-Cookie: refreshToken=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+2 < strict-transport-security: max-age=15552000; includeSubDomains
+2 < vary: Origin, Accept-Encoding
+2 < x-content-type-options: nosniff
+2 < x-dns-prefetch-control: off
+2 < x-download-options: noopen
+2 < x-frame-options: SAMEORIGIN
+2 < x-ratelimit-limit: 100
+2 < x-ratelimit-remaining: 99
+2 < x-ratelimit-reset: 1795016855
+2 < x-xss-protection: 1; mode=block
+2 < cf-cache-status: DYNAMIC
+2 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+2 < Server-Timing: cfEdge;dur=9,cfOrigin;dur=130
+2 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=z%2Fy%2Famjpztwjayh5XeZhX60c9xq%2FgRwk7Aqr%2F4K7cSVTkbmznTQt5DzLcaqEvuAwUDL6qui5JLMkFmQZKwv0Ghl1ZE6AMqTjzAjNSaIqWQmld1fhtMzCMkveqInEy2w8"}]}
+2 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: a5c81d479ff7b2bc-MIA
+{"message":"Access Token is required"}
+
+10:47:33.986 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath -- Evaluating path: $
+10:47:33.987 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath -- Evaluating path: $
+10:47:33.987 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath -- Evaluating path: $
+10:47:33.992 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath -- Evaluating path: $
+10:47:33.992 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath -- Evaluating path: $
+10:47:33.992 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath -- Evaluating path: $
+10:47:34.013 [main] DEBUG org.thymeleaf.TemplateEngine -- [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+10:47:34.070 [main] DEBUG org.thymeleaf.TemplateEngine.CONFIG -- Initializing Thymeleaf Template engine configuration...
+[THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Thymeleaf version: 3.1.2.RELEASE (built 2023-07-30T19:25:50+0000)
+[THYMELEAF] * Cache Manager implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template resolvers:
+[THYMELEAF]     * [1] com.intuit.karate.template.ResourceHtmlTemplateResolver
+[THYMELEAF] * Message resolvers:
+[THYMELEAF]     * org.thymeleaf.messageresolver.StandardMessageResolver
+[THYMELEAF] * Link builders:
+[THYMELEAF]     * org.thymeleaf.linkbuilder.StandardLinkBuilder
+[THYMELEAF] * Dialect [1 of 2]: Standard (com.intuit.karate.template.KarateStandardDialect)
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF]     * Processors for Template Mode: HTML
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:include,data-th-include}] [100]: org.thymeleaf.standard.processor.StandardIncludeTagProcessor
+[THYMELEAF]             * [* {th:insert,data-th-insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace,data-th-replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:each,data-th-each}] [200]: com.intuit.karate.template.KarateEachTagProcessor
+[THYMELEAF]             * [* {th:switch,data-th-switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case,data-th-case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if,data-th-if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless,data-th-unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object,data-th-object}] [500]: org.thymeleaf.standard.processor.StandardObjectTagProcessor
+[THYMELEAF]             * [* {th:with,data-th-with}] [600]: com.intuit.karate.template.KarateWithTagProcessor
+[THYMELEAF]             * [* {th:attr,data-th-attr}] [700]: com.intuit.karate.template.KarateAttributeTagProcessor.KarateAttrTagProcessor
+[THYMELEAF]             * [* {th:attrappend,data-th-attrappend}] [900]: com.intuit.karate.template.KarateAttributeTagProcessor.KarateAttrappendTagProcessor
+[THYMELEAF]             * [* {th:attrprepend,data-th-attrprepend}] [900]: com.intuit.karate.template.KarateAttributeTagProcessor.KarateAttrprependTagProcessor
+[THYMELEAF]             * [* {th:alt-title,data-th-alt-title}] [990]: org.thymeleaf.standard.processor.StandardAltTitleTagProcessor
+[THYMELEAF]             * [* {th:lang-xmllang,data-th-lang-xmllang}] [990]: org.thymeleaf.standard.processor.StandardLangXmlLangTagProcessor
+[THYMELEAF]             * [* {th:action,data-th-action}] [1000]: org.thymeleaf.standard.processor.StandardActionTagProcessor
+[THYMELEAF]             * [* {th:defer,data-th-defer}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:async,data-th-async}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:reversed,data-th-reversed}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:seamless,data-th-seamless}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:nowrap,data-th-nowrap}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:autoplay,data-th-autoplay}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:declare,data-th-declare}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:multiple,data-th-multiple}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:selected,data-th-selected}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:hidden,data-th-hidden}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:scoped,data-th-scoped}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:autofocus,data-th-autofocus}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:required,data-th-required}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:disabled,data-th-disabled}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:pubdate,data-th-pubdate}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:open,data-th-open}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:checked,data-th-checked}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:default,data-th-default}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:readonly,data-th-readonly}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:loop,data-th-loop}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:formnovalidate,data-th-formnovalidate}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:novalidate,data-th-novalidate}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:controls,data-th-controls}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:ismap,data-th-ismap}] [1000]: org.thymeleaf.standard.processor.StandardConditionalFixedValueTagProcessor
+[THYMELEAF]             * [* {th:onreset,data-th-onreset}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oncontextmenu,data-th-oncontextmenu}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onended,data-th-onended}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oncanplaythrough,data-th-oncanplaythrough}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondblclick,data-th-ondblclick}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onblur,data-th-onblur}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onresize,data-th-onresize}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onredo,data-th-onredo}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onclick,data-th-onclick}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onpopstate,data-th-onpopstate}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onprogress,data-th-onprogress}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onafterprint,data-th-onafterprint}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragenter,data-th-ondragenter}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onkeyup,data-th-onkeyup}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onratechange,data-th-onratechange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onabort,data-th-onabort}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmouseover,data-th-onmouseover}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onbeforeunload,data-th-onbeforeunload}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oninput,data-th-oninput}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onsuspend,data-th-onsuspend}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onloadeddata,data-th-onloadeddata}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onkeydown,data-th-onkeydown}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onloadstart,data-th-onloadstart}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmousedown,data-th-onmousedown}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragleave,data-th-ondragleave}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onfocus,data-th-onfocus}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onvolumechange,data-th-onvolumechange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondurationchange,data-th-ondurationchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onstalled,data-th-onstalled}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmessage,data-th-onmessage}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ontimeupdate,data-th-ontimeupdate}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onemptied,data-th-onemptied}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oncanplay,data-th-oncanplay}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onplay,data-th-onplay}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onhashchange,data-th-onhashchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmousemove,data-th-onmousemove}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragend,data-th-ondragend}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onreadystatechange,data-th-onreadystatechange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onstorage,data-th-onstorage}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onsubmit,data-th-onsubmit}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onselect,data-th-onselect}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmouseup,data-th-onmouseup}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onchange,data-th-onchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onseeking,data-th-onseeking}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onoffline,data-th-onoffline}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmousewheel,data-th-onmousewheel}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragover,data-th-ondragover}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onshow,data-th-onshow}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onloadedmetadata,data-th-onloadedmetadata}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onforminput,data-th-onforminput}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondragstart,data-th-ondragstart}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onscroll,data-th-onscroll}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:oninvalid,data-th-oninvalid}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onerror,data-th-onerror}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onunload,data-th-onunload}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onwaiting,data-th-onwaiting}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onplaying,data-th-onplaying}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onmouseout,data-th-onmouseout}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onbeforeprint,data-th-onbeforeprint}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onpause,data-th-onpause}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondrop,data-th-ondrop}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onundo,data-th-onundo}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onseeked,data-th-onseeked}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ondrag,data-th-ondrag}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onkeypress,data-th-onkeypress}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:ononline,data-th-ononline}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onload,data-th-onload}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:onformchange,data-th-onformchange}] [1000]: org.thymeleaf.standard.processor.StandardDOMEventAttributeTagProcessor
+[THYMELEAF]             * [* {th:href,data-th-href}] [1000]: org.thymeleaf.standard.processor.StandardHrefTagProcessor
+[THYMELEAF]             * [* {th:inline,data-th-inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineHTMLTagProcessor
+[THYMELEAF]             * [* {th:method,data-th-method}] [1000]: org.thymeleaf.standard.processor.StandardMethodTagProcessor
+[THYMELEAF]             * [* {th:name,data-th-name}] [1000]: org.thymeleaf.standard.processor.StandardNonRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:type,data-th-type}] [1000]: org.thymeleaf.standard.processor.StandardNonRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:cellspacing,data-th-cellspacing}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:accesskey,data-th-accesskey}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:scrolling,data-th-scrolling}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formmethod,data-th-formmethod}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:kind,data-th-kind}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:cols,data-th-cols}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:frameborder,data-th-frameborder}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:width,data-th-width}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formenctype,data-th-formenctype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:border,data-th-border}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:accept-charset,data-th-accept-charset}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:label,data-th-label}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:charset,data-th-charset}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:class,data-th-class}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:content,data-th-content}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:vspace,data-th-vspace}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:marginwidth,data-th-marginwidth}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:longdesc,data-th-longdesc}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rules,data-th-rules}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:enctype,data-th-enctype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formtarget,data-th-formtarget}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:optimum,data-th-optimum}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:step,data-th-step}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:align,data-th-align}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:audio,data-th-audio}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:start,data-th-start}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:codebase,data-th-codebase}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:datetime,data-th-datetime}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:valuetype,data-th-valuetype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:span,data-th-span}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:sizes,data-th-sizes}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:alt,data-th-alt}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:size,data-th-size}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:background,data-th-background}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:form,data-th-form}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:http-equiv,data-th-http-equiv}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:high,data-th-high}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:colspan,data-th-colspan}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:standby,data-th-standby}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:hreflang,data-th-hreflang}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:dir,data-th-dir}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:spellcheck,data-th-spellcheck}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:data,data-th-data}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:id,data-th-id}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:scope,data-th-scope}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:usemap,data-th-usemap}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:style,data-th-style}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:height,data-th-height}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rel,data-th-rel}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:autocomplete,data-th-autocomplete}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:scheme,data-th-scheme}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:min,data-th-min}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:icon,data-th-icon}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rev,data-th-rev}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:lang,data-th-lang}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:abbr,data-th-abbr}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:srclang,data-th-srclang}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:contenteditable,data-th-contenteditable}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:classid,data-th-classid}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:max,data-th-max}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:title,data-th-title}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:maxlength,data-th-maxlength}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rowspan,data-th-rowspan}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:contextmenu,data-th-contextmenu}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:media,data-th-media}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:pattern,data-th-pattern}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:manifest,data-th-manifest}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:cellpadding,data-th-cellpadding}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:placeholder,data-th-placeholder}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:hspace,data-th-hspace}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:sandbox,data-th-sandbox}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:formaction,data-th-formaction}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:dropzone,data-th-dropzone}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:radiogroup,data-th-radiogroup}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:wrap,data-th-wrap}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:keytype,data-th-keytype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:draggable,data-th-draggable}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:axis,data-th-axis}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:frame,data-th-frame}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:target,data-th-target}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:summary,data-th-summary}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:bgcolor,data-th-bgcolor}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:poster,data-th-poster}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:low,data-th-low}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:archive,data-th-archive}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:list,data-th-list}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:for,data-th-for}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:compact,data-th-compact}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:marginheight,data-th-marginheight}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:tabindex,data-th-tabindex}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:cite,data-th-cite}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:rows,data-th-rows}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:challenge,data-th-challenge}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:preload,data-th-preload}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:codetype,data-th-codetype}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:accept,data-th-accept}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:headers,data-th-headers}] [1000]: org.thymeleaf.standard.processor.StandardRemovableAttributeTagProcessor
+[THYMELEAF]             * [* {th:src,data-th-src}] [1000]: org.thymeleaf.standard.processor.StandardSrcTagProcessor
+[THYMELEAF]             * [* {th:value,data-th-value}] [1000]: org.thymeleaf.standard.processor.StandardValueTagProcessor
+[THYMELEAF]             * [* {th:xmlbase,data-th-xmlbase}] [1000]: org.thymeleaf.standard.processor.StandardXmlBaseTagProcessor
+[THYMELEAF]             * [* {th:xmllang,data-th-xmllang}] [1000]: org.thymeleaf.standard.processor.StandardXmlLangTagProcessor
+[THYMELEAF]             * [* {xmlns:th}] [1000]: org.thymeleaf.standard.processor.StandardXmlNsTagProcessor
+[THYMELEAF]             * [* {th:xmlspace,data-th-xmlspace}] [1000]: org.thymeleaf.standard.processor.StandardXmlSpaceTagProcessor
+[THYMELEAF]             * [* {th:classappend,data-th-classappend}] [1100]: org.thymeleaf.standard.processor.StandardClassappendTagProcessor
+[THYMELEAF]             * [* {th:styleappend,data-th-styleappend}] [1100]: org.thymeleaf.standard.processor.StandardStyleappendTagProcessor
+[THYMELEAF]             * [* {th:text,data-th-text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext,data-th-utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:fragment,data-th-fragment}] [1500]: org.thymeleaf.standard.processor.StandardFragmentTagProcessor
+[THYMELEAF]             * [* {th:assert,data-th-assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove,data-th-remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [* {th:ref,data-th-ref}] [10000]: org.thymeleaf.standard.processor.StandardRefAttributeTagProcessor
+[THYMELEAF]             * [{th:block,th-block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]             * [* th:*] [2147483647]: org.thymeleaf.standard.processor.StandardDefaultAttributesTagProcessor
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]         * DOCTYPE Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardTranslationDocTypeProcessor
+[THYMELEAF]         * CDATA Section Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningCDATASectionProcessor
+[THYMELEAF]         * Comment Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningCommentProcessor
+[THYMELEAF]             * [1100]: org.thymeleaf.standard.processor.StandardConditionalCommentProcessor
+[THYMELEAF]     * Processors for Template Mode: XML
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:include}] [100]: org.thymeleaf.standard.processor.StandardIncludeTagProcessor
+[THYMELEAF]             * [* {th:insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:each}] [200]: com.intuit.karate.template.KarateEachTagProcessor
+[THYMELEAF]             * [* {th:switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object}] [500]: org.thymeleaf.standard.processor.StandardObjectTagProcessor
+[THYMELEAF]             * [* {th:with}] [600]: com.intuit.karate.template.KarateWithTagProcessor
+[THYMELEAF]             * [* {th:attr}] [700]: com.intuit.karate.template.KarateAttributeTagProcessor.KarateAttrTagProcessor
+[THYMELEAF]             * [* {th:attrappend}] [900]: com.intuit.karate.template.KarateAttributeTagProcessor.KarateAttrappendTagProcessor
+[THYMELEAF]             * [* {th:attrprepend}] [900]: com.intuit.karate.template.KarateAttributeTagProcessor.KarateAttrprependTagProcessor
+[THYMELEAF]             * [* {th:inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineXMLTagProcessor
+[THYMELEAF]             * [* {xmlns:th}] [1000]: org.thymeleaf.standard.processor.StandardXmlNsTagProcessor
+[THYMELEAF]             * [* {th:text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:fragment}] [1500]: org.thymeleaf.standard.processor.StandardFragmentTagProcessor
+[THYMELEAF]             * [* {th:assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [* {th:ref}] [10000]: org.thymeleaf.standard.processor.StandardRefAttributeTagProcessor
+[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]             * [* th:*] [2147483647]: org.thymeleaf.standard.processor.StandardDefaultAttributesTagProcessor
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]         * CDATA Section Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningCDATASectionProcessor
+[THYMELEAF]         * Comment Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningCommentProcessor
+[THYMELEAF]     * Processors for Template Mode: TEXT
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:each}] [200]: com.intuit.karate.template.KarateEachTagProcessor
+[THYMELEAF]             * [* {th:switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object}] [500]: org.thymeleaf.standard.processor.StandardObjectTagProcessor
+[THYMELEAF]             * [* {th:with}] [600]: com.intuit.karate.template.KarateWithTagProcessor
+[THYMELEAF]             * [* {th:inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineTextualTagProcessor
+[THYMELEAF]             * [* {th:text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]             * [* 100000] [org.thymeleaf.standard.processor.StandardBlockTagProcessor]: {}
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]     * Processors for Template Mode: JAVASCRIPT
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:each}] [200]: com.intuit.karate.template.KarateEachTagProcessor
+[THYMELEAF]             * [* {th:switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object}] [500]: org.thymeleaf.standard.processor.StandardObjectTagProcessor
+[THYMELEAF]             * [* {th:with}] [600]: com.intuit.karate.template.KarateWithTagProcessor
+[THYMELEAF]             * [* {th:inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineTextualTagProcessor
+[THYMELEAF]             * [* {th:text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]             * [* 100000] [org.thymeleaf.standard.processor.StandardBlockTagProcessor]: {}
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]     * Processors for Template Mode: CSS
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {th:insert}] [100]: org.thymeleaf.standard.processor.StandardInsertTagProcessor
+[THYMELEAF]             * [* {th:replace}] [100]: org.thymeleaf.standard.processor.StandardReplaceTagProcessor
+[THYMELEAF]             * [* {th:each}] [200]: com.intuit.karate.template.KarateEachTagProcessor
+[THYMELEAF]             * [* {th:switch}] [250]: org.thymeleaf.standard.processor.StandardSwitchTagProcessor
+[THYMELEAF]             * [* {th:case}] [275]: org.thymeleaf.standard.processor.StandardCaseTagProcessor
+[THYMELEAF]             * [* {th:if}] [300]: org.thymeleaf.standard.processor.StandardIfTagProcessor
+[THYMELEAF]             * [* {th:unless}] [400]: org.thymeleaf.standard.processor.StandardUnlessTagProcessor
+[THYMELEAF]             * [* {th:object}] [500]: org.thymeleaf.standard.processor.StandardObjectTagProcessor
+[THYMELEAF]             * [* {th:with}] [600]: com.intuit.karate.template.KarateWithTagProcessor
+[THYMELEAF]             * [* {th:inline}] [1000]: org.thymeleaf.standard.processor.StandardInlineTextualTagProcessor
+[THYMELEAF]             * [* {th:text}] [1300]: org.thymeleaf.standard.processor.StandardTextTagProcessor
+[THYMELEAF]             * [* {th:utext}] [1400]: org.thymeleaf.standard.processor.StandardUtextTagProcessor
+[THYMELEAF]             * [* {th:assert}] [1550]: org.thymeleaf.standard.processor.StandardAssertTagProcessor
+[THYMELEAF]             * [* {th:remove}] [1600]: org.thymeleaf.standard.processor.StandardRemoveTagProcessor
+[THYMELEAF]             * [{th:block} *] [100000]: org.thymeleaf.standard.processor.StandardBlockTagProcessor
+[THYMELEAF]             * [* 100000] [org.thymeleaf.standard.processor.StandardBlockTagProcessor]: {}
+[THYMELEAF]         * Text Processors by [precedence]:
+[THYMELEAF]             * [1000]: org.thymeleaf.standard.processor.StandardInliningTextProcessor
+[THYMELEAF]     * Expression Objects:
+[THYMELEAF]         * #ctx
+[THYMELEAF]         * #root
+[THYMELEAF]         * #vars
+[THYMELEAF]         * #object
+[THYMELEAF]         * #locale
+[THYMELEAF]         * #conversions
+[THYMELEAF]         * #uris
+[THYMELEAF]         * #temporals
+[THYMELEAF]         * #calendars
+[THYMELEAF]         * #dates
+[THYMELEAF]         * #bools
+[THYMELEAF]         * #numbers
+[THYMELEAF]         * #objects
+[THYMELEAF]         * #strings
+[THYMELEAF]         * #arrays
+[THYMELEAF]         * #lists
+[THYMELEAF]         * #sets
+[THYMELEAF]         * #maps
+[THYMELEAF]         * #aggregates
+[THYMELEAF]         * #messages
+[THYMELEAF]         * #ids
+[THYMELEAF]         * #execInfo
+[THYMELEAF]         * #request
+[THYMELEAF]         * #response
+[THYMELEAF]         * #session
+[THYMELEAF]         * #servletContext
+[THYMELEAF]     * Execution Attributes:
+[THYMELEAF]         * "StandardExpressionParser": com.intuit.karate.template.KarateStandardDialect@50ec4bfc
+[THYMELEAF]         * "StandardJavaScriptSerializer": org.thymeleaf.standard.serializer.StandardJavaScriptSerializer@79ab97fd
+[THYMELEAF]         * "StandardCSSSerializer": org.thymeleaf.standard.serializer.StandardCSSSerializer@3a9b41a0
+[THYMELEAF]         * "StandardVariableExpressionEvaluator": com.intuit.karate.template.KarateStandardDialect@50ec4bfc
+[THYMELEAF]         * "StandardConversionService": org.thymeleaf.standard.expression.StandardConversionService@5fe46d52
+[THYMELEAF] * Dialect [2 of 2]: karate (com.intuit.karate.template.KarateScriptDialect)
+[THYMELEAF]     * Prefix: "ka"
+[THYMELEAF]     * Processors for Template Mode: HTML
+[THYMELEAF]         * Element Tag Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [* {src}] [1000]: com.intuit.karate.template.KaScriptAttrProcessor
+[THYMELEAF]         * Element Model Processors by [matching element and attribute name] [precedence]:
+[THYMELEAF]             * [{script} {ka:scope,data-ka-scope}] [1000]: com.intuit.karate.template.KaScriptElemProcessor
+[THYMELEAF]             * [* {ka:set,data-ka-set}] [1000]: com.intuit.karate.template.KaSetElemProcessor
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+10:47:34.070 [main] DEBUG org.thymeleaf.TemplateEngine -- [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+---------------------------------------------------------
+feature: classpath:ecommerce/flujos/transaccion_e2e.feature
+scenarios:  2 | passed:  2 | failed:  0 | time: 2.4370
+---------------------------------------------------------
+
+]]></system-out>
+  </testcase>
+</testsuite>
