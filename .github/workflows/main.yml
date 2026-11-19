@@ -1,0 +1,44 @@
+name: Karate API Tests - CI
+
+on:
+  # Permite lanzarlo manualmente desde la pestaña "Actions" de GitHub y elegir qué tag correr
+  workflow_dispatch:
+    inputs:
+      karate_tag:
+        description: 'Tag de Karate a ejecutar (ej. @smoke, @e2e, @transaccion)'
+        required: true
+        default: '@smoke'
+        type: string
+  # También se ejecuta automáticamente al hacer push a main (opcional)
+  push:
+    branches: [ "main" ]
+
+jobs:
+  run-karate-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 1. Descargar código del repositorio
+        uses: actions/checkout@v4
+
+      - name: 2. Configurar Java (JDK 17)
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: 'maven'
+
+      - name: 3. Ejecutar pruebas de Karate filtrando por tag
+        env:
+          # Si viene desde workflow_dispatch usa el input; si es push usa @smoke por defecto
+          SELECTED_TAG: ${{ inputs.karate_tag || '@smoke' }}
+        run: |
+          echo "Ejecutando escenarios con tag: $SELECTED_TAG"
+          mvn test -Dkarate.options="--tags $SELECTED_TAG"
+
+      - name: 4. Subir reporte HTML de Karate como artefacto
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: karate-report-${{ github.run_number }}
+          path: target/karate-reports/
